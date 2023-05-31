@@ -15,6 +15,12 @@
           }
         },
         {
+          "name": "Ad Astra",
+          "identifier": {
+            "ModrinthProject": "3ufwT9JF"
+          }
+        },
+        {
           "name": "Animatica",
           "identifier": {
             "ModrinthProject": "PRN43VSY"
@@ -45,6 +51,18 @@
           }
         },
         {
+          "name": "Balm",
+          "identifier": {
+            "ModrinthProject": "MBAkmtvl"
+          }
+        },
+        {
+          "name": "Better Combat",
+          "identifier": {
+            "ModrinthProject": "5sy6g3kz"
+          }
+        },
+        {
           "name": "BetterF3",
           "identifier": {
             "ModrinthProject": "8shC1gFX"
@@ -63,6 +81,12 @@
           }
         },
         {
+          "name": "Botarium",
+          "identifier": {
+            "ModrinthProject": "2u6LRnMa"
+          }
+        },
+        {
           "name": "Cloth Config API",
           "identifier": {
             "ModrinthProject": "9s6osm5g"
@@ -78,6 +102,12 @@
           "name": "Create Fabric",
           "identifier": {
             "ModrinthProject": "Xbc0uyRg"
+          }
+        },
+        {
+          "name": "Dawn API",
+          "identifier": {
+            "ModrinthProject": "meZK2DCX"
           }
         },
         {
@@ -153,9 +183,21 @@
           }
         },
         {
+          "name": "Immersive Armors",
+          "identifier": {
+            "ModrinthProject": "eE2Db4YU"
+          }
+        },
+        {
           "name": "Immersive Portals",
           "identifier": {
             "ModrinthProject": "zJpHMkdD"
+          }
+        },
+        {
+          "name": "Immersive structures",
+          "identifier": {
+            "ModrinthProject": "CVBAErky"
           }
         },
         {
@@ -183,6 +225,12 @@
           }
         },
         {
+          "name": "MCA Reborn",
+          "identifier": {
+            "ModrinthProject": "1W98a849"
+          }
+        },
+        {
           "name": "Memory Leak Fix",
           "identifier": {
             "ModrinthProject": "NRjRiSSD"
@@ -192,6 +240,18 @@
           "name": "MidnightControls",
           "identifier": {
             "ModrinthProject": "bXX9h73M"
+          }
+        },
+        {
+          "name": "Mine Treasure",
+          "identifier": {
+            "ModrinthProject": "5y2R1ofr"
+          }
+        },
+        {
+          "name": "Mo' Structures",
+          "identifier": {
+            "ModrinthProject": "PTGd6dWp"
           }
         },
         {
@@ -243,9 +303,33 @@
           }
         },
         {
+          "name": "playerAnimator",
+          "identifier": {
+            "ModrinthProject": "gedNE4y2"
+          }
+        },
+        {
+          "name": "Promenade",
+          "identifier": {
+            "ModrinthProject": "GuE5FpvB"
+          }
+        },
+        {
           "name": "Reese's Sodium Options",
           "identifier": {
             "ModrinthProject": "Bh37bMuy"
+          }
+        },
+        {
+          "name": "Resourceful Config",
+          "identifier": {
+            "ModrinthProject": "M1953qlQ"
+          }
+        },
+        {
+          "name": "Resourceful Lib",
+          "identifier": {
+            "ModrinthProject": "G1hIVOrD"
           }
         },
         {
@@ -291,6 +375,18 @@
           }
         },
         {
+          "name": "Terra",
+          "identifier": {
+            "ModrinthProject": "FIlZB9L0"
+          }
+        },
+        {
+          "name": "Towns and Towers",
+          "identifier": {
+            "ModrinthProject": "DjLobEOy"
+          }
+        },
+        {
           "name": "Traveler's Backpack",
           "identifier": {
             "ModrinthProject": "rlloIFEV"
@@ -303,9 +399,27 @@
           }
         },
         {
+          "name": "Waystones",
+          "identifier": {
+            "ModrinthProject": "LOpKHB2A"
+          }
+        },
+        {
+          "name": "When Dungeons Arise",
+          "identifier": {
+            "ModrinthProject": "8DfbfASn"
+          }
+        },
+        {
           "name": "WTHIT",
           "identifier": {
             "ModrinthProject": "6AQIaxuO"
+          }
+        },
+        {
+          "name": "Xaero's Minimap",
+          "identifier": {
+            "ModrinthProject": "1bokaNcj"
           }
         },
         {
