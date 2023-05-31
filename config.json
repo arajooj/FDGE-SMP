@@ -1,0 +1,321 @@
+{
+  "active_profile": 0,
+  "active_modpack": 0,
+  "profiles": [
+    {
+      "name": "FDGE-SMP",
+      "output_dir": "\\\\?\\Z:\\Repositorios\\Mine\\FDGE-SMP\\mods",
+      "game_version": "1.19.2",
+      "mod_loader": "Fabric",
+      "mods": [
+        {
+          "name": "3D Skin Layers",
+          "identifier": {
+            "ModrinthProject": "zV5r3pPn"
+          }
+        },
+        {
+          "name": "Animatica",
+          "identifier": {
+            "ModrinthProject": "PRN43VSY"
+          }
+        },
+        {
+          "name": "AppleSkin",
+          "identifier": {
+            "ModrinthProject": "EsAfCjCV"
+          }
+        },
+        {
+          "name": "Applied Energistics 2",
+          "identifier": {
+            "ModrinthProject": "XxWD5pD3"
+          }
+        },
+        {
+          "name": "Architectury API",
+          "identifier": {
+            "ModrinthProject": "lhGA9TYQ"
+          }
+        },
+        {
+          "name": "bad packets",
+          "identifier": {
+            "ModrinthProject": "ftdbN0KK"
+          }
+        },
+        {
+          "name": "BetterF3",
+          "identifier": {
+            "ModrinthProject": "8shC1gFX"
+          }
+        },
+        {
+          "name": "Borderless Mining",
+          "identifier": {
+            "ModrinthProject": "kYq5qkSL"
+          }
+        },
+        {
+          "name": "Botania",
+          "identifier": {
+            "ModrinthProject": "pfjLUfGv"
+          }
+        },
+        {
+          "name": "Cloth Config API",
+          "identifier": {
+            "ModrinthProject": "9s6osm5g"
+          }
+        },
+        {
+          "name": "Continuity",
+          "identifier": {
+            "ModrinthProject": "1IjD5062"
+          }
+        },
+        {
+          "name": "Create Fabric",
+          "identifier": {
+            "ModrinthProject": "Xbc0uyRg"
+          }
+        },
+        {
+          "name": "Debugify",
+          "identifier": {
+            "ModrinthProject": "QwxR6Gcd"
+          }
+        },
+        {
+          "name": "Deeper and Darker",
+          "identifier": {
+            "ModrinthProject": "fnAffV0n"
+          }
+        },
+        {
+          "name": "Don't Clear Chat History",
+          "identifier": {
+            "ModrinthProject": "sUbMm93i"
+          }
+        },
+        {
+          "name": "Dynamic FPS",
+          "identifier": {
+            "ModrinthProject": "LQ3K71Q1"
+          }
+        },
+        {
+          "name": "Emotecraft",
+          "identifier": {
+            "ModrinthProject": "pZ2wrerK"
+          }
+        },
+        {
+          "name": "Entity Culling",
+          "identifier": {
+            "ModrinthProject": "NNAgCjsB"
+          }
+        },
+        {
+          "name": "Entity Model Features [CEM]",
+          "identifier": {
+            "ModrinthProject": "4I1XuqiY"
+          }
+        },
+        {
+          "name": "Entity Texture Features",
+          "identifier": {
+            "ModrinthProject": "BVzZfTc1"
+          }
+        },
+        {
+          "name": "Fabric API",
+          "identifier": {
+            "ModrinthProject": "P7dR8mSH"
+          }
+        },
+        {
+          "name": "Fabric Language Kotlin",
+          "identifier": {
+            "ModrinthProject": "Ha28R6CL"
+          }
+        },
+        {
+          "name": "FerriteCore",
+          "identifier": {
+            "ModrinthProject": "uXXizFIs"
+          }
+        },
+        {
+          "name": "Geckolib",
+          "identifier": {
+            "ModrinthProject": "8BmcQJ2H"
+          }
+        },
+        {
+          "name": "Immersive Portals",
+          "identifier": {
+            "ModrinthProject": "zJpHMkdD"
+          }
+        },
+        {
+          "name": "Indium",
+          "identifier": {
+            "ModrinthProject": "Orvt0mRa"
+          }
+        },
+        {
+          "name": "Krypton",
+          "identifier": {
+            "ModrinthProject": "fQEb0iXm"
+          }
+        },
+        {
+          "name": "LambDynamicLights",
+          "identifier": {
+            "ModrinthProject": "yBW8D80W"
+          }
+        },
+        {
+          "name": "LazyDFU",
+          "identifier": {
+            "ModrinthProject": "hvFnDODi"
+          }
+        },
+        {
+          "name": "Memory Leak Fix",
+          "identifier": {
+            "ModrinthProject": "NRjRiSSD"
+          }
+        },
+        {
+          "name": "MidnightControls",
+          "identifier": {
+            "ModrinthProject": "bXX9h73M"
+          }
+        },
+        {
+          "name": "Mod Menu",
+          "identifier": {
+            "ModrinthProject": "mOgUt4GM"
+          }
+        },
+        {
+          "name": "MoreChatHistory",
+          "identifier": {
+            "ModrinthProject": "8qkXwOnk"
+          }
+        },
+        {
+          "name": "No Chat Reports",
+          "identifier": {
+            "ModrinthProject": "qQyHxfxd"
+          }
+        },
+        {
+          "name": "Not Enough Animations",
+          "identifier": {
+            "ModrinthProject": "MPCX6s5C"
+          }
+        },
+        {
+          "name": "Not Enough Crashes",
+          "identifier": {
+            "ModrinthProject": "yM94ont6"
+          }
+        },
+        {
+          "name": "OptiGUI",
+          "identifier": {
+            "ModrinthProject": "JuksLGBQ"
+          }
+        },
+        {
+          "name": "Origins",
+          "identifier": {
+            "ModrinthProject": "3BeIrqZR"
+          }
+        },
+        {
+          "name": "Patchouli",
+          "identifier": {
+            "ModrinthProject": "nU0bVIaL"
+          }
+        },
+        {
+          "name": "Plasmo Voice",
+          "identifier": {
+            "ModrinthProject": "1bZhdhsH"
+          }
+        },
+        {
+          "name": "Reese's Sodium Options",
+          "identifier": {
+            "ModrinthProject": "Bh37bMuy"
+          }
+        },
+        {
+          "name": "Roughly Enough Items (REI)",
+          "identifier": {
+            "ModrinthProject": "nfn13YXA"
+          }
+        },
+        {
+          "name": "Smooth Boot (Fabric)",
+          "identifier": {
+            "ModrinthProject": "FWumhS4T"
+          }
+        },
+        {
+          "name": "Sodium",
+          "identifier": {
+            "ModrinthProject": "AANobbMI"
+          }
+        },
+        {
+          "name": "Sodium Extra",
+          "identifier": {
+            "ModrinthProject": "PtjYWJkn"
+          }
+        },
+        {
+          "name": "Starlight (Fabric)",
+          "identifier": {
+            "ModrinthProject": "H8CaAYZC"
+          }
+        },
+        {
+          "name": "Traveler's Backpack",
+          "identifier": {
+            "ModrinthProject": "rlloIFEV"
+          }
+        },
+        {
+          "name": "Trinkets",
+          "identifier": {
+            "ModrinthProject": "5aaWibi9"
+          }
+        },
+        {
+          "name": "WTHIT",
+          "identifier": {
+            "ModrinthProject": "6AQIaxuO"
+          }
+        },
+        {
+          "name": "YetAnotherConfigLib",
+          "identifier": {
+            "ModrinthProject": "1eAoo2KR"
+          }
+        },
+        {
+          "name": "Zoomify",
+          "identifier": {
+            "ModrinthProject": "w7ThoJFB"
+          }
+        }
+      ]
+    }
+  ],
+  "modpacks": []
+}

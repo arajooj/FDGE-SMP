@@ -1,0 +1,16 @@
+{
+  "name": "fdge-smp",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ferium": "bin/ferium.exe --config-file config.json",
+    "ferium:add": "yarn ferium add",
+    "ferium:upgrade": "yarn ferium upgrade"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yarn": "^1.22.19"
+  }
+}
