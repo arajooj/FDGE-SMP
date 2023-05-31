@@ -243,12 +243,6 @@
           }
         },
         {
-          "name": "Plasmo Voice",
-          "identifier": {
-            "ModrinthProject": "1bZhdhsH"
-          }
-        },
-        {
           "name": "Reese's Sodium Options",
           "identifier": {
             "ModrinthProject": "Bh37bMuy"
@@ -258,6 +252,12 @@
           "name": "Roughly Enough Items (REI)",
           "identifier": {
             "ModrinthProject": "nfn13YXA"
+          }
+        },
+        {
+          "name": "Simple Voice Chat",
+          "identifier": {
+            "ModrinthProject": "9eGKb6K1"
           }
         },
         {
@@ -276,6 +276,12 @@
           "name": "Sodium Extra",
           "identifier": {
             "ModrinthProject": "PtjYWJkn"
+          }
+        },
+        {
+          "name": "Sound Physics Remastered",
+          "identifier": {
+            "ModrinthProject": "qyVF9oeo"
           }
         },
         {
