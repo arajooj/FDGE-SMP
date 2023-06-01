@@ -57,6 +57,18 @@
           }
         },
         {
+          "name": "Areas",
+          "identifier": {
+            "ModrinthProject": "NWvsqJ2Z"
+          }
+        },
+        {
+          "name": "AutoModpack",
+          "identifier": {
+            "ModrinthProject": "k68glP2e"
+          }
+        },
+        {
           "name": "bad packets",
           "identifier": {
             "ModrinthProject": "ftdbN0KK"
@@ -126,6 +138,12 @@
           "name": "Collective",
           "identifier": {
             "ModrinthProject": "e0M1UDsY"
+          }
+        },
+        {
+          "name": "Compact Help Command",
+          "identifier": {
+            "ModrinthProject": "XdiGl7ZL"
           }
         },
         {
@@ -225,6 +243,12 @@
           }
         },
         {
+          "name": "Edibles",
+          "identifier": {
+            "ModrinthProject": "Rjl8pCZ9"
+          }
+        },
+        {
           "name": "Emotecraft",
           "identifier": {
             "ModrinthProject": "pZ2wrerK"
@@ -291,6 +315,12 @@
           }
         },
         {
+          "name": "Forgiving Void",
+          "identifier": {
+            "ModrinthProject": "1vkzEZjE"
+          }
+        },
+        {
           "name": "Geckolib",
           "identifier": {
             "ModrinthProject": "8BmcQJ2H"
@@ -300,6 +330,12 @@
           "name": "Give Me Hats!",
           "identifier": {
             "ModrinthProject": "QrLG6byX"
+          }
+        },
+        {
+          "name": "Healing Campfire",
+          "identifier": {
+            "ModrinthProject": "kOuPUitF"
           }
         },
         {
@@ -330,6 +366,18 @@
           "name": "Indium",
           "identifier": {
             "ModrinthProject": "Orvt0mRa"
+          }
+        },
+        {
+          "name": "Infinity With Mending",
+          "identifier": {
+            "ModrinthProject": "TToG3iVN"
+          }
+        },
+        {
+          "name": "Inventory Totem",
+          "identifier": {
+            "ModrinthProject": "yQj7xqEM"
           }
         },
         {
@@ -366,6 +414,12 @@
           "name": "LazyDFU",
           "identifier": {
             "ModrinthProject": "hvFnDODi"
+          }
+        },
+        {
+          "name": "MagicLib",
+          "identifier": {
+            "ModrinthProject": "mv1zH6ln"
           }
         },
         {
@@ -453,6 +507,12 @@
           }
         },
         {
+          "name": "No Hostiles Around Campfire",
+          "identifier": {
+            "ModrinthProject": "EJqeyaVz"
+          }
+        },
+        {
           "name": "Not Enough Animations",
           "identifier": {
             "ModrinthProject": "MPCX6s5C"
@@ -492,6 +552,12 @@
           "name": "Patchouli",
           "identifier": {
             "ModrinthProject": "nU0bVIaL"
+          }
+        },
+        {
+          "name": "Pehkui",
+          "identifier": {
+            "ModrinthProject": "t5W7Jfwy"
           }
         },
         {
@@ -606,6 +672,12 @@
           "name": "spark",
           "identifier": {
             "ModrinthProject": "l6YH9Als"
+          }
+        },
+        {
+          "name": "Spawn Animations",
+          "identifier": {
+            "ModrinthProject": "zrzYrlm0"
           }
         },
         {
