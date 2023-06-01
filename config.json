@@ -123,9 +123,21 @@
           }
         },
         {
+          "name": "Collective",
+          "identifier": {
+            "ModrinthProject": "e0M1UDsY"
+          }
+        },
+        {
           "name": "Continuity",
           "identifier": {
             "ModrinthProject": "1IjD5062"
+          }
+        },
+        {
+          "name": "Cotton",
+          "identifier": {
+            "ModrinthProject": "KCHy8KsT"
           }
         },
         {
@@ -255,6 +267,12 @@
           }
         },
         {
+          "name": "Factory API",
+          "identifier": {
+            "ModrinthProject": "nkTZHOLD"
+          }
+        },
+        {
           "name": "FerriteCore",
           "identifier": {
             "ModrinthProject": "uXXizFIs"
@@ -267,9 +285,27 @@
           }
         },
         {
+          "name": "First Join Message",
+          "identifier": {
+            "ModrinthProject": "Ppny3rjF"
+          }
+        },
+        {
           "name": "Geckolib",
           "identifier": {
             "ModrinthProject": "8BmcQJ2H"
+          }
+        },
+        {
+          "name": "Give Me Hats!",
+          "identifier": {
+            "ModrinthProject": "QrLG6byX"
+          }
+        },
+        {
+          "name": "Icarus",
+          "identifier": {
+            "ModrinthProject": "Dw7M6XKW"
           }
         },
         {
@@ -354,6 +390,12 @@
           "name": "MidnightControls",
           "identifier": {
             "ModrinthProject": "bXX9h73M"
+          }
+        },
+        {
+          "name": "MidnightLib",
+          "identifier": {
+            "ModrinthProject": "codAaoxh"
           }
         },
         {
@@ -471,9 +513,27 @@
           }
         },
         {
+          "name": "Pufferfish's Skills",
+          "identifier": {
+            "ModrinthProject": "hqQqvaa4"
+          }
+        },
+        {
+          "name": "Radiant Gear",
+          "identifier": {
+            "ModrinthProject": "AtT9wm5O"
+          }
+        },
+        {
           "name": "Reese's Sodium Options",
           "identifier": {
             "ModrinthProject": "Bh37bMuy"
+          }
+        },
+        {
+          "name": "RelicEx",
+          "identifier": {
+            "ModrinthProject": "LwwtuiRk"
           }
         },
         {
@@ -579,9 +639,21 @@
           }
         },
         {
+          "name": "Trinkets Curios Theme",
+          "identifier": {
+            "ModrinthProject": "K5dAmygn"
+          }
+        },
+        {
           "name": "Ultris: Boss Expansion",
           "identifier": {
             "ModrinthProject": "tA7mQv7R"
+          }
+        },
+        {
+          "name": "Usage Ticker",
+          "identifier": {
+            "ModrinthProject": "VtrwU3N0"
           }
         },
         {
