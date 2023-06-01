@@ -21,6 +21,12 @@
           }
         },
         {
+          "name": "Almost Unified",
+          "identifier": {
+            "ModrinthProject": "sdaSaQEz"
+          }
+        },
+        {
           "name": "Animatica",
           "identifier": {
             "ModrinthProject": "PRN43VSY"
@@ -213,6 +219,12 @@
           }
         },
         {
+          "name": "FeyTweaks",
+          "identifier": {
+            "ModrinthProject": "Wa72oW2W"
+          }
+        },
+        {
           "name": "Geckolib",
           "identifier": {
             "ModrinthProject": "8BmcQJ2H"
@@ -243,6 +255,12 @@
           }
         },
         {
+          "name": "InvMove",
+          "identifier": {
+            "ModrinthProject": "REfW2AEX"
+          }
+        },
+        {
           "name": "Krypton",
           "identifier": {
             "ModrinthProject": "fQEb0iXm"
@@ -255,6 +273,12 @@
           }
         },
         {
+          "name": "KubeJS",
+          "identifier": {
+            "ModrinthProject": "umyGl7zF"
+          }
+        },
+        {
           "name": "LambDynamicLights",
           "identifier": {
             "ModrinthProject": "yBW8D80W"
@@ -264,6 +288,12 @@
           "name": "LazyDFU",
           "identifier": {
             "ModrinthProject": "hvFnDODi"
+          }
+        },
+        {
+          "name": "Main Menu Credits",
+          "identifier": {
+            "ModrinthProject": "qJDfP7WN"
           }
         },
         {
@@ -288,6 +318,12 @@
           "name": "Mine Treasure",
           "identifier": {
             "ModrinthProject": "5y2R1ofr"
+          }
+        },
+        {
+          "name": "Mixin Conflict Helper",
+          "identifier": {
+            "ModrinthProject": "MR1VIQJJ"
           }
         },
         {
@@ -345,6 +381,12 @@
           }
         },
         {
+          "name": "Observable",
+          "identifier": {
+            "ModrinthProject": "VYRu7qmG"
+          }
+        },
+        {
           "name": "OptiGUI",
           "identifier": {
             "ModrinthProject": "JuksLGBQ"
@@ -381,6 +423,12 @@
           }
         },
         {
+          "name": "ReplayMod",
+          "identifier": {
+            "ModrinthProject": "Nv2fQJo5"
+          }
+        },
+        {
           "name": "Resourceful Config",
           "identifier": {
             "ModrinthProject": "M1953qlQ"
@@ -393,9 +441,21 @@
           }
         },
         {
+          "name": "Rhino",
+          "identifier": {
+            "ModrinthProject": "sk9knFPE"
+          }
+        },
+        {
           "name": "Roughly Enough Items (REI)",
           "identifier": {
             "ModrinthProject": "nfn13YXA"
+          }
+        },
+        {
+          "name": "ServerCore",
+          "identifier": {
+            "ModrinthProject": "4WWQxlQP"
           }
         },
         {
@@ -426,6 +486,12 @@
           "name": "Sound Physics Remastered",
           "identifier": {
             "ModrinthProject": "qyVF9oeo"
+          }
+        },
+        {
+          "name": "spark",
+          "identifier": {
+            "ModrinthProject": "l6YH9Als"
           }
         },
         {
@@ -468,6 +534,12 @@
           "name": "When Dungeons Arise",
           "identifier": {
             "ModrinthProject": "8DfbfASn"
+          }
+        },
+        {
+          "name": "Who am I?",
+          "identifier": {
+            "ModrinthProject": "CcxcmoLQ"
           }
         },
         {
