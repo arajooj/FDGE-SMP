@@ -99,6 +99,12 @@
           }
         },
         {
+          "name": "BetterLeads",
+          "identifier": {
+            "ModrinthProject": "8XZCCV8b"
+          }
+        },
+        {
           "name": "Borderless Mining",
           "identifier": {
             "ModrinthProject": "kYq5qkSL"
@@ -321,6 +327,12 @@
           }
         },
         {
+          "name": "From The Fog",
+          "identifier": {
+            "ModrinthProject": "p1WH6sHr"
+          }
+        },
+        {
           "name": "Geckolib",
           "identifier": {
             "ModrinthProject": "8BmcQJ2H"
@@ -387,6 +399,12 @@
           }
         },
         {
+          "name": "Item Alchemy",
+          "identifier": {
+            "ModrinthProject": "cfQx2fbQ"
+          }
+        },
+        {
           "name": "Krypton",
           "identifier": {
             "ModrinthProject": "fQEb0iXm"
@@ -435,9 +453,21 @@
           }
         },
         {
+          "name": "MCPitanLibarch",
+          "identifier": {
+            "ModrinthProject": "uNRoUnGT"
+          }
+        },
+        {
           "name": "Memory Leak Fix",
           "identifier": {
             "ModrinthProject": "NRjRiSSD"
+          }
+        },
+        {
+          "name": "Menu Music",
+          "identifier": {
+            "ModrinthProject": "To1L7Q0X"
           }
         },
         {
@@ -450,6 +480,12 @@
           "name": "MidnightLib",
           "identifier": {
             "ModrinthProject": "codAaoxh"
+          }
+        },
+        {
+          "name": "Milk+",
+          "identifier": {
+            "ModrinthProject": "OCxj9VC8"
           }
         },
         {
@@ -531,6 +567,12 @@
           }
         },
         {
+          "name": "Nyf's Spiders",
+          "identifier": {
+            "ModrinthProject": "dOGM7ccu"
+          }
+        },
+        {
           "name": "Observable",
           "identifier": {
             "ModrinthProject": "VYRu7qmG"
@@ -600,6 +642,12 @@
           "name": "RelicEx",
           "identifier": {
             "ModrinthProject": "LwwtuiRk"
+          }
+        },
+        {
+          "name": "Remove Reloading Screen",
+          "identifier": {
+            "ModrinthProject": "ZP7xHXtw"
           }
         },
         {
@@ -726,6 +774,12 @@
           "name": "Usage Ticker",
           "identifier": {
             "ModrinthProject": "VtrwU3N0"
+          }
+        },
+        {
+          "name": "Vanish",
+          "identifier": {
+            "ModrinthProject": "UL4bJFDY"
           }
         },
         {
