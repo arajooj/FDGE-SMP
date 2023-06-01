@@ -39,6 +39,12 @@
           }
         },
         {
+          "name": "Applied Botanics",
+          "identifier": {
+            "ModrinthProject": "545hUrw9"
+          }
+        },
+        {
           "name": "Applied Energistics 2",
           "identifier": {
             "ModrinthProject": "XxWD5pD3"
@@ -129,9 +135,45 @@
           }
         },
         {
+          "name": "Create Goggles",
+          "identifier": {
+            "ModrinthProject": "L1RT5SJc"
+          }
+        },
+        {
+          "name": "Create Renewable Ores",
+          "identifier": {
+            "ModrinthProject": "dYMXOl0s"
+          }
+        },
+        {
+          "name": "Create: Crystal Clear Refabricated",
+          "identifier": {
+            "ModrinthProject": "28pbjFvD"
+          }
+        },
+        {
+          "name": "Create: Origins",
+          "identifier": {
+            "ModrinthProject": "PnhmwLM0"
+          }
+        },
+        {
+          "name": "Create: SandPaper Overhaul",
+          "identifier": {
+            "ModrinthProject": "23nOkgI0"
+          }
+        },
+        {
           "name": "Cull Clouds",
           "identifier": {
             "ModrinthProject": "WoKBoi0o"
+          }
+        },
+        {
+          "name": "Data Attributes",
+          "identifier": {
+            "ModrinthProject": "wFyCClLQ"
           }
         },
         {
@@ -333,6 +375,12 @@
           }
         },
         {
+          "name": "Mob Captains",
+          "identifier": {
+            "ModrinthProject": "7tKn1fLd"
+          }
+        },
+        {
           "name": "Mod Menu",
           "identifier": {
             "ModrinthProject": "mOgUt4GM"
@@ -408,6 +456,12 @@
           "name": "playerAnimator",
           "identifier": {
             "ModrinthProject": "gedNE4y2"
+          }
+        },
+        {
+          "name": "PlayerEx",
+          "identifier": {
+            "ModrinthProject": "o5GUN4b1"
           }
         },
         {
@@ -522,6 +576,12 @@
           "name": "Trinkets",
           "identifier": {
             "ModrinthProject": "5aaWibi9"
+          }
+        },
+        {
+          "name": "Ultris: Boss Expansion",
+          "identifier": {
+            "ModrinthProject": "tA7mQv7R"
           }
         },
         {
