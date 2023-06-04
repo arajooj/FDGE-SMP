@@ -93,6 +93,12 @@
           }
         },
         {
+          "name": "Architect's Palette [Fabric]",
+          "identifier": {
+            "ModrinthProject": "ktECB2Rv"
+          }
+        },
+        {
           "name": "Architectury API",
           "identifier": {
             "ModrinthProject": "lhGA9TYQ"
@@ -369,6 +375,12 @@
           }
         },
         {
+          "name": "Disable Custom Worlds Advice",
+          "identifier": {
+            "ModrinthProject": "HdwRs3kc"
+          }
+        },
+        {
           "name": "Doggo Mod Overhauled",
           "identifier": {
             "ModrinthProject": "ReOjbL4W"
@@ -546,6 +558,12 @@
           "name": "Give Me Hats!",
           "identifier": {
             "ModrinthProject": "QrLG6byX"
+          }
+        },
+        {
+          "name": "Gliders",
+          "identifier": {
+            "ModrinthProject": "XiC6HzoU"
           }
         },
         {
@@ -1053,6 +1071,12 @@
           }
         },
         {
+          "name": "Repurposed Structures - Quilt/Fabric",
+          "identifier": {
+            "ModrinthProject": "muf0XoRe"
+          }
+        },
+        {
           "name": "Resourceful Config",
           "identifier": {
             "ModrinthProject": "M1953qlQ"
@@ -1095,6 +1119,12 @@
           }
         },
         {
+          "name": "Runes",
+          "identifier": {
+            "ModrinthProject": "lP9Yrr1E"
+          }
+        },
+        {
           "name": "ServerCore",
           "identifier": {
             "ModrinthProject": "4WWQxlQP"
@@ -1128,6 +1158,12 @@
           "name": "Simply Swords",
           "identifier": {
             "ModrinthProject": "bK3Ubu9p"
+          }
+        },
+        {
+          "name": "Sky Villages",
+          "identifier": {
+            "ModrinthProject": "mb68eIfx"
           }
         },
         {
@@ -1176,6 +1212,18 @@
           "name": "Spectrum",
           "identifier": {
             "ModrinthProject": "3rc31Hgo"
+          }
+        },
+        {
+          "name": "Spell Engine",
+          "identifier": {
+            "ModrinthProject": "XvoWJaA2"
+          }
+        },
+        {
+          "name": "Spell Power Attributes",
+          "identifier": {
+            "ModrinthProject": "8ooWzSQP"
           }
         },
         {
@@ -1320,6 +1368,12 @@
           "name": "Who am I?",
           "identifier": {
             "ModrinthProject": "CcxcmoLQ"
+          }
+        },
+        {
+          "name": "Wizards (RPG Series)",
+          "identifier": {
+            "ModrinthProject": "NkGaQMDA"
           }
         },
         {
