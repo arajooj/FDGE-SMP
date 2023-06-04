@@ -21,6 +21,12 @@
           }
         },
         {
+          "name": "Advancements Debug",
+          "identifier": {
+            "ModrinthProject": "rxMTwxyO"
+          }
+        },
+        {
           "name": "Almost Unified",
           "identifier": {
             "ModrinthProject": "sdaSaQEz"
@@ -231,12 +237,6 @@
           }
         },
         {
-          "name": "Distant Horizons",
-          "identifier": {
-            "ModrinthProject": "uCdwusMi"
-          }
-        },
-        {
           "name": "Don't Clear Chat History",
           "identifier": {
             "ModrinthProject": "sUbMm93i"
@@ -276,6 +276,12 @@
           "name": "Entity Texture Features",
           "identifier": {
             "ModrinthProject": "BVzZfTc1"
+          }
+        },
+        {
+          "name": "Entity View Distance",
+          "identifier": {
+            "ModrinthProject": "ihnBJ6on"
           }
         },
         {
@@ -321,6 +327,12 @@
           }
         },
         {
+          "name": "ForgetMeChunk",
+          "identifier": {
+            "ModrinthProject": "vRXn3MrA"
+          }
+        },
+        {
           "name": "Forgiving Void",
           "identifier": {
             "ModrinthProject": "1vkzEZjE"
@@ -360,12 +372,6 @@
           "name": "Immersive Armors",
           "identifier": {
             "ModrinthProject": "eE2Db4YU"
-          }
-        },
-        {
-          "name": "Immersive Portals",
-          "identifier": {
-            "ModrinthProject": "zJpHMkdD"
           }
         },
         {
@@ -444,12 +450,6 @@
           "name": "Main Menu Credits",
           "identifier": {
             "ModrinthProject": "qJDfP7WN"
-          }
-        },
-        {
-          "name": "MCA Reborn",
-          "identifier": {
-            "ModrinthProject": "1W98a849"
           }
         },
         {
@@ -567,6 +567,12 @@
           }
         },
         {
+          "name": "Numismatic Overhaul",
+          "identifier": {
+            "ModrinthProject": "ZXm8hVxN"
+          }
+        },
+        {
           "name": "Nyf's Spiders",
           "identifier": {
             "ModrinthProject": "dOGM7ccu"
@@ -588,6 +594,12 @@
           "name": "Origins",
           "identifier": {
             "ModrinthProject": "3BeIrqZR"
+          }
+        },
+        {
+          "name": "oωo (owo-lib)",
+          "identifier": {
+            "ModrinthProject": "ccKDOlHs"
           }
         },
         {
@@ -780,6 +792,12 @@
           "name": "Vanish",
           "identifier": {
             "ModrinthProject": "UL4bJFDY"
+          }
+        },
+        {
+          "name": "Very Many Players (Fabric)",
+          "identifier": {
+            "ModrinthProject": "wnEe9KBa"
           }
         },
         {
