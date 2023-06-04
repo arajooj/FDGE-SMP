@@ -33,6 +33,12 @@
           }
         },
         {
+          "name": "Advanced Reborn",
+          "identifier": {
+            "ModrinthProject": "ir8okcEA"
+          }
+        },
+        {
           "name": "Advancement Plaques",
           "identifier": {
             "ModrinthProject": "9NM0dXub"
@@ -42,6 +48,12 @@
           "name": "Advancements Debug",
           "identifier": {
             "ModrinthProject": "rxMTwxyO"
+          }
+        },
+        {
+          "name": "Alloy Forgery",
+          "identifier": {
+            "ModrinthProject": "jhl28YkY"
           }
         },
         {
@@ -72,6 +84,12 @@
           "name": "Applied Energistics 2",
           "identifier": {
             "ModrinthProject": "XxWD5pD3"
+          }
+        },
+        {
+          "name": "Applied Energistics 2 Wireless Terminals",
+          "identifier": {
+            "ModrinthProject": "pNabrMMw"
           }
         },
         {
@@ -171,9 +189,21 @@
           }
         },
         {
+          "name": "CC: Restitched",
+          "identifier": {
+            "ModrinthProject": "eldBwa5V"
+          }
+        },
+        {
           "name": "Celestria",
           "identifier": {
             "ModrinthProject": "GoCfVRkX"
+          }
+        },
+        {
+          "name": "Chunk Loaders",
+          "identifier": {
+            "ModrinthProject": "t1VgucWo"
           }
         },
         {
@@ -213,6 +243,12 @@
           }
         },
         {
+          "name": "Create Crafts & Additions",
+          "identifier": {
+            "ModrinthProject": "kU1G12Nn"
+          }
+        },
+        {
           "name": "Create Fabric",
           "identifier": {
             "ModrinthProject": "Xbc0uyRg"
@@ -222,6 +258,12 @@
           "name": "Create Goggles",
           "identifier": {
             "ModrinthProject": "L1RT5SJc"
+          }
+        },
+        {
+          "name": "Create Ore Excavation",
+          "identifier": {
+            "ModrinthProject": "ResbpANg"
           }
         },
         {
@@ -237,6 +279,12 @@
           }
         },
         {
+          "name": "Create: Estrogen",
+          "identifier": {
+            "ModrinthProject": "HhIJW8n1"
+          }
+        },
+        {
           "name": "Create: Origins",
           "identifier": {
             "ModrinthProject": "PnhmwLM0"
@@ -246,6 +294,12 @@
           "name": "Create: SandPaper Overhaul",
           "identifier": {
             "ModrinthProject": "23nOkgI0"
+          }
+        },
+        {
+          "name": "Create: Steam n’ Rails",
+          "identifier": {
+            "ModrinthProject": "ZzjhlDgM"
           }
         },
         {
@@ -276,6 +330,12 @@
           "name": "Deeper and Darker",
           "identifier": {
             "ModrinthProject": "fnAffV0n"
+          }
+        },
+        {
+          "name": "Defensive Measures Mod",
+          "identifier": {
+            "ModrinthProject": "6KRlDejX"
           }
         },
         {
@@ -351,9 +411,33 @@
           }
         },
         {
+          "name": "Fabric Seasons",
+          "identifier": {
+            "ModrinthProject": "KJe6y9Eu"
+          }
+        },
+        {
+          "name": "Fabric Seasons: Delight Compat",
+          "identifier": {
+            "ModrinthProject": "4VYO7ir0"
+          }
+        },
+        {
+          "name": "Fabric Seasons: Extras",
+          "identifier": {
+            "ModrinthProject": "64FYdx5z"
+          }
+        },
+        {
           "name": "Factory API",
           "identifier": {
             "ModrinthProject": "nkTZHOLD"
+          }
+        },
+        {
+          "name": "Farmer's Delight [Fabric]",
+          "identifier": {
+            "ModrinthProject": "4EakbH8e"
           }
         },
         {
@@ -501,6 +585,12 @@
           }
         },
         {
+          "name": "Legendary Tooltips",
+          "identifier": {
+            "ModrinthProject": "atHH8NyV"
+          }
+        },
+        {
           "name": "MagicLib",
           "identifier": {
             "ModrinthProject": "mv1zH6ln"
@@ -516,6 +606,12 @@
           "name": "MCPitanLibarch",
           "identifier": {
             "ModrinthProject": "uNRoUnGT"
+          }
+        },
+        {
+          "name": "megane",
+          "identifier": {
+            "ModrinthProject": "ZNk5S5U6"
           }
         },
         {
@@ -582,6 +678,12 @@
           "name": "Mod Menu",
           "identifier": {
             "ModrinthProject": "mOgUt4GM"
+          }
+        },
+        {
+          "name": "Modern Industrialization",
+          "identifier": {
+            "ModrinthProject": "Gov5Dboq"
           }
         },
         {
@@ -705,6 +807,12 @@
           }
         },
         {
+          "name": "Prism",
+          "identifier": {
+            "ModrinthProject": "1OE8wbN0"
+          }
+        },
+        {
           "name": "Promenade",
           "identifier": {
             "ModrinthProject": "GuE5FpvB"
@@ -720,6 +828,12 @@
           "name": "Radiant Gear",
           "identifier": {
             "ModrinthProject": "AtT9wm5O"
+          }
+        },
+        {
+          "name": "Reborn Core",
+          "identifier": {
+            "CurseForgeProject": 237903
           }
         },
         {
@@ -780,6 +894,12 @@
           "name": "ServerCore",
           "identifier": {
             "ModrinthProject": "4WWQxlQP"
+          }
+        },
+        {
+          "name": "Simple Magnets",
+          "identifier": {
+            "ModrinthProject": "YyNQVpOu"
           }
         },
         {
@@ -846,6 +966,24 @@
           "name": "Starlight (Fabric)",
           "identifier": {
             "ModrinthProject": "H8CaAYZC"
+          }
+        },
+        {
+          "name": "SuperMartijn642's Config Lib",
+          "identifier": {
+            "ModrinthProject": "LN9BxssP"
+          }
+        },
+        {
+          "name": "SuperMartijn642's Core Lib",
+          "identifier": {
+            "ModrinthProject": "rOUBggPv"
+          }
+        },
+        {
+          "name": "Tech Reborn",
+          "identifier": {
+            "CurseForgeProject": 233564
           }
         },
         {
