@@ -309,6 +309,12 @@
           }
         },
         {
+          "name": "Critters and Companions",
+          "identifier": {
+            "ModrinthProject": "Yd4wb5wZ"
+          }
+        },
+        {
           "name": "Cull Clouds",
           "identifier": {
             "ModrinthProject": "WoKBoi0o"
@@ -342,6 +348,18 @@
           "name": "Defensive Measures Mod",
           "identifier": {
             "ModrinthProject": "6KRlDejX"
+          }
+        },
+        {
+          "name": "Direbats",
+          "identifier": {
+            "ModrinthProject": "epF1CjCx"
+          }
+        },
+        {
+          "name": "Doggo Mod Overhauled",
+          "identifier": {
+            "ModrinthProject": "ReOjbL4W"
           }
         },
         {
@@ -477,6 +495,12 @@
           }
         },
         {
+          "name": "Forge Config API Port",
+          "identifier": {
+            "ModrinthProject": "ohNO6lps"
+          }
+        },
+        {
           "name": "ForgetMeChunk",
           "identifier": {
             "ModrinthProject": "vRXn3MrA"
@@ -549,6 +573,12 @@
           }
         },
         {
+          "name": "Inventory Profiles Next",
+          "identifier": {
+            "ModrinthProject": "O7RBXm3n"
+          }
+        },
+        {
           "name": "Inventory Totem",
           "identifier": {
             "ModrinthProject": "yQj7xqEM"
@@ -606,6 +636,18 @@
           "name": "Legendary Tooltips",
           "identifier": {
             "ModrinthProject": "atHH8NyV"
+          }
+        },
+        {
+          "name": "libIPN",
+          "identifier": {
+            "ModrinthProject": "onSQdWhM"
+          }
+        },
+        {
+          "name": "Loot Goblins",
+          "identifier": {
+            "ModrinthProject": "C2NPhwqM"
           }
         },
         {
@@ -669,6 +711,12 @@
           }
         },
         {
+          "name": "Mimic",
+          "identifier": {
+            "ModrinthProject": "ePo6jqBP"
+          }
+        },
+        {
           "name": "Mine Cells - Dead Cells Mod",
           "identifier": {
             "ModrinthProject": "9Qdvz1OV"
@@ -699,6 +747,12 @@
           }
         },
         {
+          "name": "Mob Plaques",
+          "identifier": {
+            "ModrinthProject": "3b1CFIR5"
+          }
+        },
+        {
           "name": "Mod Menu",
           "identifier": {
             "ModrinthProject": "mOgUt4GM"
@@ -714,6 +768,24 @@
           "name": "Modern Industrialization",
           "identifier": {
             "ModrinthProject": "Gov5Dboq"
+          }
+        },
+        {
+          "name": "Moonlight Lib",
+          "identifier": {
+            "ModrinthProject": "twkfQtEc"
+          }
+        },
+        {
+          "name": "More Axolotl Variants API",
+          "identifier": {
+            "ModrinthProject": "t4Ybtys2"
+          }
+        },
+        {
+          "name": "More Axolotl Variants Mod",
+          "identifier": {
+            "ModrinthProject": "zitu8weW"
           }
         },
         {
@@ -744,6 +816,12 @@
           "name": "Mouse Tweaks",
           "identifier": {
             "ModrinthProject": "aC3cM3Vq"
+          }
+        },
+        {
+          "name": "Naturalist",
+          "identifier": {
+            "ModrinthProject": "F8BQNPWX"
           }
         },
         {
@@ -861,6 +939,12 @@
           }
         },
         {
+          "name": "Puzzles Lib",
+          "identifier": {
+            "ModrinthProject": "QAGBst4M"
+          }
+        },
+        {
           "name": "QuickShulker",
           "identifier": {
             "ModrinthProject": "RsZDxTI3"
@@ -870,6 +954,12 @@
           "name": "Radiant Gear",
           "identifier": {
             "ModrinthProject": "AtT9wm5O"
+          }
+        },
+        {
+          "name": "Rat's Mischief",
+          "identifier": {
+            "ModrinthProject": "Jjc1149h"
           }
         },
         {
@@ -945,6 +1035,12 @@
           }
         },
         {
+          "name": "Rotten Creatures",
+          "identifier": {
+            "ModrinthProject": "5Zusp48B"
+          }
+        },
+        {
           "name": "Roughly Enough Items (REI)",
           "identifier": {
             "ModrinthProject": "nfn13YXA"
@@ -963,6 +1059,12 @@
           }
         },
         {
+          "name": "Simple Copper Pipes",
+          "identifier": {
+            "ModrinthProject": "9r4ZkgSN"
+          }
+        },
+        {
           "name": "Simple Magnets",
           "identifier": {
             "ModrinthProject": "YyNQVpOu"
@@ -978,6 +1080,12 @@
           "name": "Simply Swords",
           "identifier": {
             "ModrinthProject": "bK3Ubu9p"
+          }
+        },
+        {
+          "name": "Skylib",
+          "identifier": {
+            "ModrinthProject": "SXYcZO3i"
           }
         },
         {
@@ -1044,6 +1152,12 @@
           "name": "SuperMartijn642's Core Lib",
           "identifier": {
             "ModrinthProject": "rOUBggPv"
+          }
+        },
+        {
+          "name": "Supplementaries",
+          "identifier": {
+            "ModrinthProject": "fFEIiSDQ"
           }
         },
         {
