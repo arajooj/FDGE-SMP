@@ -21,6 +21,24 @@
           }
         },
         {
+          "name": "Additional Additions",
+          "identifier": {
+            "ModrinthProject": "R4TvILfj"
+          }
+        },
+        {
+          "name": "Advanced Netherite",
+          "identifier": {
+            "ModrinthProject": "CFX9ftUJ"
+          }
+        },
+        {
+          "name": "Advancement Plaques",
+          "identifier": {
+            "ModrinthProject": "9NM0dXub"
+          }
+        },
+        {
           "name": "Advancements Debug",
           "identifier": {
             "ModrinthProject": "rxMTwxyO"
@@ -87,6 +105,12 @@
           }
         },
         {
+          "name": "Better Advancements",
+          "identifier": {
+            "ModrinthProject": "Q2OqKxDG"
+          }
+        },
+        {
           "name": "Better Beds",
           "identifier": {
             "ModrinthProject": "kKwy3HU9"
@@ -129,6 +153,12 @@
           }
         },
         {
+          "name": "Building Wands",
+          "identifier": {
+            "ModrinthProject": "XkisZUfp"
+          }
+        },
+        {
           "name": "Carpet",
           "identifier": {
             "ModrinthProject": "TQTTVgYE"
@@ -138,6 +168,12 @@
           "name": "Carpet-Fixes",
           "identifier": {
             "ModrinthProject": "7Jaxgqip"
+          }
+        },
+        {
+          "name": "Celestria",
+          "identifier": {
+            "ModrinthProject": "GoCfVRkX"
           }
         },
         {
@@ -162,6 +198,12 @@
           "name": "Continuity",
           "identifier": {
             "ModrinthProject": "1IjD5062"
+          }
+        },
+        {
+          "name": "Convenient Decor",
+          "identifier": {
+            "ModrinthProject": "gMWAhU1n"
           }
         },
         {
@@ -291,6 +333,12 @@
           }
         },
         {
+          "name": "Extra Alchemy",
+          "identifier": {
+            "ModrinthProject": "n0S5OkPo"
+          }
+        },
+        {
           "name": "Fabric API",
           "identifier": {
             "ModrinthProject": "P7dR8mSH"
@@ -324,6 +372,12 @@
           "name": "First Join Message",
           "identifier": {
             "ModrinthProject": "Ppny3rjF"
+          }
+        },
+        {
+          "name": "First-person Model",
+          "identifier": {
+            "ModrinthProject": "H5XMjpHi"
           }
         },
         {
@@ -366,6 +420,12 @@
           "name": "Icarus",
           "identifier": {
             "ModrinthProject": "Dw7M6XKW"
+          }
+        },
+        {
+          "name": "Iceberg",
+          "identifier": {
+            "ModrinthProject": "5faXoLqX"
           }
         },
         {
@@ -489,6 +549,12 @@
           }
         },
         {
+          "name": "Mine Cells - Dead Cells Mod",
+          "identifier": {
+            "ModrinthProject": "9Qdvz1OV"
+          }
+        },
+        {
           "name": "Mine Treasure",
           "identifier": {
             "ModrinthProject": "5y2R1ofr"
@@ -531,6 +597,12 @@
           }
         },
         {
+          "name": "More Mob Variants",
+          "identifier": {
+            "ModrinthProject": "JiEhJ3WG"
+          }
+        },
+        {
           "name": "MoreChatHistory",
           "identifier": {
             "ModrinthProject": "8qkXwOnk"
@@ -546,6 +618,12 @@
           "name": "No Hostiles Around Campfire",
           "identifier": {
             "ModrinthProject": "EJqeyaVz"
+          }
+        },
+        {
+          "name": "NoRecipeBook (Fabric)",
+          "identifier": {
+            "ModrinthProject": "TvL1V8O5"
           }
         },
         {
@@ -681,6 +759,12 @@
           }
         },
         {
+          "name": "Revelationary",
+          "identifier": {
+            "ModrinthProject": "eXrl5E3G"
+          }
+        },
+        {
           "name": "Rhino",
           "identifier": {
             "ModrinthProject": "sk9knFPE"
@@ -702,6 +786,12 @@
           "name": "Simple Voice Chat",
           "identifier": {
             "ModrinthProject": "9eGKb6K1"
+          }
+        },
+        {
+          "name": "Simply Swords",
+          "identifier": {
+            "ModrinthProject": "bK3Ubu9p"
           }
         },
         {
@@ -741,6 +831,18 @@
           }
         },
         {
+          "name": "Spectrum",
+          "identifier": {
+            "ModrinthProject": "3rc31Hgo"
+          }
+        },
+        {
+          "name": "Spellbound Weapons",
+          "identifier": {
+            "ModrinthProject": "egyqODDj"
+          }
+        },
+        {
           "name": "Starlight (Fabric)",
           "identifier": {
             "ModrinthProject": "H8CaAYZC"
@@ -750,6 +852,12 @@
           "name": "Terra",
           "identifier": {
             "ModrinthProject": "FIlZB9L0"
+          }
+        },
+        {
+          "name": "Things",
+          "identifier": {
+            "ModrinthProject": "VzAGdu9D"
           }
         },
         {
@@ -801,6 +909,12 @@
           }
         },
         {
+          "name": "Voice Chat Interaction",
+          "identifier": {
+            "ModrinthProject": "qsSP2ZZ0"
+          }
+        },
+        {
           "name": "Waystones",
           "identifier": {
             "ModrinthProject": "LOpKHB2A"
@@ -828,6 +942,12 @@
           "name": "Xaero's Minimap",
           "identifier": {
             "ModrinthProject": "1bokaNcj"
+          }
+        },
+        {
+          "name": "Xaero's World Map",
+          "identifier": {
+            "ModrinthProject": "NcUtCpym"
           }
         },
         {
