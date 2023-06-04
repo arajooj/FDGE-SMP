@@ -237,6 +237,12 @@
           }
         },
         {
+          "name": "Copper Hopper",
+          "identifier": {
+            "ModrinthProject": "mTI5Xg5F"
+          }
+        },
+        {
           "name": "Cotton",
           "identifier": {
             "ModrinthProject": "KCHy8KsT"
@@ -390,6 +396,12 @@
           "name": "Exordium",
           "identifier": {
             "ModrinthProject": "DynYZEae"
+          }
+        },
+        {
+          "name": "Extended Drawers",
+          "identifier": {
+            "ModrinthProject": "AhtxbnpG"
           }
         },
         {
@@ -549,6 +561,12 @@
           }
         },
         {
+          "name": "Iron Chests",
+          "identifier": {
+            "ModrinthProject": "7mHyGgvW"
+          }
+        },
+        {
           "name": "Item Alchemy",
           "identifier": {
             "ModrinthProject": "cfQx2fbQ"
@@ -606,6 +624,12 @@
           "name": "MCPitanLibarch",
           "identifier": {
             "ModrinthProject": "uNRoUnGT"
+          }
+        },
+        {
+          "name": "ME Requester",
+          "identifier": {
+            "ModrinthProject": "E6BFl96N"
           }
         },
         {
@@ -681,6 +705,12 @@
           }
         },
         {
+          "name": "Modern Dynamics",
+          "identifier": {
+            "ModrinthProject": "fMpvLrnF"
+          }
+        },
+        {
           "name": "Modern Industrialization",
           "identifier": {
             "ModrinthProject": "Gov5Dboq"
@@ -708,6 +738,12 @@
           "name": "MoreChatHistory",
           "identifier": {
             "ModrinthProject": "8qkXwOnk"
+          }
+        },
+        {
+          "name": "Mouse Tweaks",
+          "identifier": {
+            "ModrinthProject": "aC3cM3Vq"
           }
         },
         {
@@ -825,6 +861,12 @@
           }
         },
         {
+          "name": "QuickShulker",
+          "identifier": {
+            "ModrinthProject": "RsZDxTI3"
+          }
+        },
+        {
           "name": "Radiant Gear",
           "identifier": {
             "ModrinthProject": "AtT9wm5O"
@@ -840,6 +882,24 @@
           "name": "Reese's Sodium Options",
           "identifier": {
             "ModrinthProject": "Bh37bMuy"
+          }
+        },
+        {
+          "name": "Reinforced Barrels",
+          "identifier": {
+            "ModrinthProject": "Tx85779b"
+          }
+        },
+        {
+          "name": "Reinforced Chests",
+          "identifier": {
+            "ModrinthProject": "FWtAXlpg"
+          }
+        },
+        {
+          "name": "Reinforced Shulker Boxes",
+          "identifier": {
+            "ModrinthProject": "xlOwuSdN"
           }
         },
         {
@@ -894,6 +954,12 @@
           "name": "ServerCore",
           "identifier": {
             "ModrinthProject": "4WWQxlQP"
+          }
+        },
+        {
+          "name": "ShulkerBoxTooltip",
+          "identifier": {
+            "ModrinthProject": "2M01OLQq"
           }
         },
         {
@@ -993,6 +1059,12 @@
           }
         },
         {
+          "name": "Tesseract",
+          "identifier": {
+            "ModrinthProject": "OUhp5O2m"
+          }
+        },
+        {
           "name": "Things",
           "identifier": {
             "ModrinthProject": "VzAGdu9D"
@@ -1002,6 +1074,12 @@
           "name": "Towns and Towers",
           "identifier": {
             "ModrinthProject": "DjLobEOy"
+          }
+        },
+        {
+          "name": "Trash Cans",
+          "identifier": {
+            "ModrinthProject": "4QrnfueM"
           }
         },
         {
@@ -1062,6 +1140,12 @@
           "name": "When Dungeons Arise",
           "identifier": {
             "ModrinthProject": "8DfbfASn"
+          }
+        },
+        {
+          "name": "Where Is It",
+          "identifier": {
+            "ModrinthProject": "FCTyEqkn"
           }
         },
         {
