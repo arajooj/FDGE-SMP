@@ -315,6 +315,12 @@
           }
         },
         {
+          "name": "Culinaire",
+          "identifier": {
+            "ModrinthProject": "MO1ODvmm"
+          }
+        },
+        {
           "name": "Cull Clouds",
           "identifier": {
             "ModrinthProject": "WoKBoi0o"
@@ -348,6 +354,12 @@
           "name": "Defensive Measures Mod",
           "identifier": {
             "ModrinthProject": "6KRlDejX"
+          }
+        },
+        {
+          "name": "Despawning Eggs Hatch",
+          "identifier": {
+            "ModrinthProject": "iKRtwScn"
           }
         },
         {
@@ -414,6 +426,12 @@
           "name": "Exordium",
           "identifier": {
             "ModrinthProject": "DynYZEae"
+          }
+        },
+        {
+          "name": "Explosive Enhancement",
+          "identifier": {
+            "ModrinthProject": "OSQ8mw2r"
           }
         },
         {
@@ -597,9 +615,21 @@
           }
         },
         {
+          "name": "It's Thirst",
+          "identifier": {
+            "ModrinthProject": "yNIHNXjP"
+          }
+        },
+        {
           "name": "Item Alchemy",
           "identifier": {
             "ModrinthProject": "cfQx2fbQ"
+          }
+        },
+        {
+          "name": "JamLib",
+          "identifier": {
+            "ModrinthProject": "IYY9Siz8"
           }
         },
         {
@@ -678,6 +708,12 @@
           "name": "megane",
           "identifier": {
             "ModrinthProject": "ZNk5S5U6"
+          }
+        },
+        {
+          "name": "MegaParrot",
+          "identifier": {
+            "ModrinthProject": "9usMkV26"
           }
         },
         {
@@ -897,6 +933,12 @@
           }
         },
         {
+          "name": "Patbox's Brewery",
+          "identifier": {
+            "ModrinthProject": "nr7cSJlY"
+          }
+        },
+        {
           "name": "Patchouli",
           "identifier": {
             "ModrinthProject": "nU0bVIaL"
@@ -1032,6 +1074,12 @@
           "name": "Rhino",
           "identifier": {
             "ModrinthProject": "sk9knFPE"
+          }
+        },
+        {
+          "name": "RightClickHarvest",
+          "identifier": {
+            "ModrinthProject": "Cnejf5xM"
           }
         },
         {
@@ -1236,6 +1284,12 @@
           "name": "Very Many Players (Fabric)",
           "identifier": {
             "ModrinthProject": "wnEe9KBa"
+          }
+        },
+        {
+          "name": "Vinery",
+          "identifier": {
+            "ModrinthProject": "1DWmBJVA"
           }
         },
         {
