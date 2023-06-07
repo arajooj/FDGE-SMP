@@ -1,0 +1,12 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 7, 2023, 6:07:36 PM
+
+#spectrum:inexorable_armor_effective
+- minecraft:generic.movement_speed (from Spectrum)
+- minecraft:generic.flying_speed (from Spectrum)
+- minecraft:generic.luck (from Spectrum)
+- additionalentityattributes:water_speed (from Spectrum)
+- additionalentityattributes:lava_speed (from Spectrum)
+
+#spectrum:inexorable_handheld_effective
+- minecraft:generic.attack_speed (from Spectrum)
+- additionalentityattributes:dig_speed (from Spectrum)

@@ -159,6 +159,12 @@
           }
         },
         {
+          "name": "Biome Technologies™",
+          "identifier": {
+            "ModrinthProject": "XhDzIuvV"
+          }
+        },
+        {
           "name": "Borderless Mining",
           "identifier": {
             "ModrinthProject": "kYq5qkSL"
@@ -381,6 +387,12 @@
           }
         },
         {
+          "name": "DisguiseHeads",
+          "identifier": {
+            "ModrinthProject": "u4pgScAU"
+          }
+        },
+        {
           "name": "Doggo Mod Overhauled",
           "identifier": {
             "ModrinthProject": "ReOjbL4W"
@@ -396,6 +408,12 @@
           "name": "Dynamic FPS",
           "identifier": {
             "ModrinthProject": "LQ3K71Q1"
+          }
+        },
+        {
+          "name": "e4mc",
+          "identifier": {
+            "ModrinthProject": "qANg5Jrr"
           }
         },
         {
@@ -549,6 +567,12 @@
           }
         },
         {
+          "name": "FSit",
+          "identifier": {
+            "ModrinthProject": "J5NAzRqK"
+          }
+        },
+        {
           "name": "Geckolib",
           "identifier": {
             "ModrinthProject": "8BmcQJ2H"
@@ -564,6 +588,12 @@
           "name": "Gliders",
           "identifier": {
             "ModrinthProject": "XiC6HzoU"
+          }
+        },
+        {
+          "name": "Gravestones",
+          "identifier": {
+            "ModrinthProject": "ssUbhMkL"
           }
         },
         {
@@ -588,6 +618,12 @@
           "name": "Immersive Armors",
           "identifier": {
             "ModrinthProject": "eE2Db4YU"
+          }
+        },
+        {
+          "name": "Immersive Paintings",
+          "identifier": {
+            "ModrinthProject": "6txNkua3"
           }
         },
         {
@@ -681,6 +717,12 @@
           }
         },
         {
+          "name": "Leashable Players",
+          "identifier": {
+            "ModrinthProject": "BKyMf6XK"
+          }
+        },
+        {
           "name": "Legendary Tooltips",
           "identifier": {
             "ModrinthProject": "atHH8NyV"
@@ -693,9 +735,21 @@
           }
         },
         {
+          "name": "Linked Storage",
+          "identifier": {
+            "ModrinthProject": "RiJDpVc2"
+          }
+        },
+        {
           "name": "Loot Goblins",
           "identifier": {
             "ModrinthProject": "C2NPhwqM"
+          }
+        },
+        {
+          "name": "Mage Hand",
+          "identifier": {
+            "ModrinthProject": "RuI8q4lz"
           }
         },
         {
@@ -909,6 +963,12 @@
           }
         },
         {
+          "name": "NotifyMe",
+          "identifier": {
+            "ModrinthProject": "PlFMCuam"
+          }
+        },
+        {
           "name": "Noxesium",
           "identifier": {
             "ModrinthProject": "Kw7Sm3Xf"
@@ -1023,12 +1083,6 @@
           }
         },
         {
-          "name": "Reborn Core",
-          "identifier": {
-            "CurseForgeProject": 237903
-          }
-        },
-        {
           "name": "Reese's Sodium Options",
           "identifier": {
             "ModrinthProject": "Bh37bMuy"
@@ -1062,12 +1116,6 @@
           "name": "Remove Reloading Screen",
           "identifier": {
             "ModrinthProject": "ZP7xHXtw"
-          }
-        },
-        {
-          "name": "ReplayMod",
-          "identifier": {
-            "ModrinthProject": "Nv2fQJo5"
           }
         },
         {
@@ -1125,9 +1173,21 @@
           }
         },
         {
+          "name": "Scarves",
+          "identifier": {
+            "ModrinthProject": "vhY4Cys8"
+          }
+        },
+        {
           "name": "ServerCore",
           "identifier": {
             "ModrinthProject": "4WWQxlQP"
+          }
+        },
+        {
+          "name": "Show Me What You Got",
+          "identifier": {
+            "ModrinthProject": "jTUiUpsh"
           }
         },
         {
@@ -1254,12 +1314,6 @@
           "name": "Supplementaries",
           "identifier": {
             "ModrinthProject": "fFEIiSDQ"
-          }
-        },
-        {
-          "name": "Tech Reborn",
-          "identifier": {
-            "CurseForgeProject": 233564
           }
         },
         {
@@ -1398,6 +1452,66 @@
           "name": "YetAnotherConfigLib",
           "identifier": {
             "ModrinthProject": "1eAoo2KR"
+          }
+        },
+        {
+          "name": "YUNG's API",
+          "identifier": {
+            "ModrinthProject": "Ua7DFN59"
+          }
+        },
+        {
+          "name": "YUNG's Better Desert Temples",
+          "identifier": {
+            "ModrinthProject": "XNlO7sBv"
+          }
+        },
+        {
+          "name": "YUNG's Better Dungeons",
+          "identifier": {
+            "ModrinthProject": "o1C1Dkj5"
+          }
+        },
+        {
+          "name": "YUNG's Better Mineshafts",
+          "identifier": {
+            "ModrinthProject": "HjmxVlSr"
+          }
+        },
+        {
+          "name": "YUNG's Better Nether Fortresses",
+          "identifier": {
+            "ModrinthProject": "Z2mXHnxP"
+          }
+        },
+        {
+          "name": "YUNG's Better Ocean Monuments",
+          "identifier": {
+            "ModrinthProject": "3dT9sgt4"
+          }
+        },
+        {
+          "name": "YUNG's Better Strongholds",
+          "identifier": {
+            "ModrinthProject": "kidLKymU"
+          }
+        },
+        {
+          "name": "YUNG's Better Witch Huts",
+          "identifier": {
+            "ModrinthProject": "t5FRdP87"
+          }
+        },
+        {
+          "name": "YUNG's Bridges",
+          "identifier": {
+            "ModrinthProject": "Ht4BfYp6"
+          }
+        },
+        {
+          "name": "YUNG's Extras",
+          "identifier": {
+            "ModrinthProject": "ZYgyPyfq"
           }
         },
         {

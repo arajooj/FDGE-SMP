@@ -1,0 +1,99 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enable entities light source.
+	entities = true
+	# Enable first-person player light source.
+	self = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				glow_item_frame = false
+				player = true
+				area_effect_cloud = true
+				bee = true
+				sheep = true
+				rabbit = true
+				pig = true
+				item = true
+				witch = true
+				skeleton = true
+				creeper = true
+				zombie = true
+				enderman = true
+				spider = true
+				chest_minecart = true
+				tnt_minecart = true
+				fox = true
+				polar_bear = true
+				drowned = true
+				squid = true
+				glow_squid = true
+				axolotl = true
+				chicken = true
+				salmon = true
+				turtle = true
+				cod = true
+				iron_golem = true
+				horse = true
+				cow = true
+				item_frame = true
+				cat = true
+				wolf = true
+
+			[light_sources.settings.entities.mca]
+				male_villager = true
+				female_villager = true
+				male_zombie_villager = true
+				female_zombie_villager = true
+
+			[light_sources.settings.entities.naturalist]
+				snail = true
+				bear = true
+				firefly = true
+				duck = true
+				coral_snake = true
+				butterfly = true
+				bass = true
+				deer = true
+				lizard = true
+				robin = true
+				snake = true
+				rattlesnake = true
+				lion = true
+				cardinal = true
+				zebra = true
+
+			[light_sources.settings.entities.mimic]
+				mimic = true
+
+			[light_sources.settings.entities.rottencreatures]
+				undead_miner = true
+
+			[light_sources.settings.entities.additionaladditions]
+				glow_stick = true
+
+			[light_sources.settings.entities.promenade]
+				lush_creeper = true
+				duck = true
+
+			[light_sources.settings.entities.direbats]
+				direbat = true
+
+			[light_sources.settings.entities.ratsmischief]
+				rat = true
+

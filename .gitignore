@@ -1,3 +1,19 @@
 /mods/
 **/.DS_Store
 node_modules
+
+
+# instance
+instances/FDGE-SMP/patches
+instances/FDGE-SMP/instance.cfg
+instances/instgroups.json
+instances/FDGE-SMP/.minecraft/.fabric
+instances/FDGE-SMP/.minecraft/.mixin.out
+instances/FDGE-SMP/.minecraft/logs
+instances/FDGE-SMP/.minecraft/not-enough-crashes
+instances/FDGE-SMP/.minecraft/saves
+instances/FDGE-SMP/.minecraft/screenshots
+instances/FDGE-SMP/.minecraft/XaeroWaypoints
+instances/FDGE-SMP/.minecraft/XaeroWorldMap
+instances/FDGE-SMP/.minecraft/o_prof
+instances/FDGE-SMP/.minecraft/usercache.json
