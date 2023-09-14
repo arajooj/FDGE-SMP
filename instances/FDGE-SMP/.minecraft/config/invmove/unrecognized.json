@@ -1,9 +1,4 @@
 {
-  "allowMovement": {
-    "mca.client.gui.InteractScreen": true,
-    "de.dafuqs.spectrum.inventories.SpectrumGenericContainerScreen": true
-  },
-  "hideBackground": {
-    "de.dafuqs.spectrum.inventories.SpectrumGenericContainerScreen": true
-  }
+  "allowMovement": {},
+  "hideBackground": {}
 }

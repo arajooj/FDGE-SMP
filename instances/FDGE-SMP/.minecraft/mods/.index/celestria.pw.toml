@@ -1,0 +1,14 @@
+name = "Celestria"
+filename = "celestria-1.1.1.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/GoCfVRkX/versions/xj3gZp9J/celestria-1.1.1.jar"
+hash-format = "sha512"
+hash = "92a42f5833de9ad6b337a1a25a781abd9de80845216d18c4b611c124c4c664ad5e47bc2b41b17c26e219c7ae217e5bcd11e9b378a5efba0735b590b700f6d28b"
+
+[update]
+[update.modrinth]
+mod-id = "GoCfVRkX"
+version = "xj3gZp9J"

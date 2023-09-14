@@ -1,0 +1,14 @@
+name = "Trinkets Curios Theme"
+filename = "trinkets-curios-theme-0.2.2+1.19.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/K5dAmygn/versions/hyhXYCwJ/trinkets-curios-theme-0.2.2%2B1.19.jar"
+hash-format = "sha512"
+hash = "77b656c2c5d8c4fbfaf3dc434a665ea57d3e22c013642085f55ba6abf26de18837f78501dd41f573cc8ab7003c8c891d07c0a331eb24c1e0309c6cfd551c6a65"
+
+[update]
+[update.modrinth]
+mod-id = "K5dAmygn"
+version = "hyhXYCwJ"

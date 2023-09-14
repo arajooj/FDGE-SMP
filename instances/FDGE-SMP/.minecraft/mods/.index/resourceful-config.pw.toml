@@ -1,0 +1,14 @@
+name = "Resourceful Config"
+filename = "resourcefulconfig-fabric-1.19.2-1.0.20.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/M1953qlQ/versions/TIzyR4bY/resourcefulconfig-fabric-1.19.2-1.0.20.jar"
+hash-format = "sha512"
+hash = "e868d5e469f0248ae5c401a8bc014980ae31ff1d75213572360fe235900b84c6ec46fe77a1586da3b84e956ebb269471101ef72d97dcabb7c22603b0e0964988"
+
+[update]
+[update.modrinth]
+mod-id = "M1953qlQ"
+version = "TIzyR4bY"

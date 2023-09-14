@@ -1,0 +1,14 @@
+name = "Building Wands"
+filename = "BuildingWands-mc1.19.2-2.6.6-release-fabric.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/XkisZUfp/versions/YOFCEFSD/BuildingWands-mc1.19.2-2.6.6-release-fabric.jar"
+hash-format = "sha512"
+hash = "a81781aa40b0839f9fde5e397bd54429ad4ac14a12338987f62cb64b94c82b3bc9029005247c9b9afb702a0a429d7a17d1545a29edf2e3370f55bf844bdd56a4"
+
+[update]
+[update.modrinth]
+mod-id = "XkisZUfp"
+version = "YOFCEFSD"

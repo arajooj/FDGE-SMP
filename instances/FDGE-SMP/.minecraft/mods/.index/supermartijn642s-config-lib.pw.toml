@@ -1,0 +1,14 @@
+name = "SuperMartijn642's Config Lib"
+filename = "supermartijn642configlib-1.1.6-fabric-mc1.19.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/LN9BxssP/versions/8bQVl73V/supermartijn642configlib-1.1.6-fabric-mc1.19.jar"
+hash-format = "sha512"
+hash = "e0affc429dbf13712fb10397c4363133ebff9e9d580860a0104aebbdb9b8ff5d01ae4c0cfa879356756b7464a98f03b9c07cb177be45b0cb5c20e2b2055600ad"
+
+[update]
+[update.modrinth]
+mod-id = "LN9BxssP"
+version = "8bQVl73V"

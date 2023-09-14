@@ -110,6 +110,17 @@
         }
       ]
     },
+    "staff_smaragdant_frost": {
+      "attack_damage": 4.0,
+      "attack_speed": -3.0,
+      "spell_attributes": [
+        {
+          "name": "frost",
+          "value": 6.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
     "wand_frost": {
       "attack_damage": 2.0,
       "attack_speed": -2.4,
@@ -117,6 +128,28 @@
         {
           "name": "frost",
           "value": 2.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    "staff_ruby_fire": {
+      "attack_damage": 4.0,
+      "attack_speed": -3.0,
+      "spell_attributes": [
+        {
+          "name": "fire",
+          "value": 6.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    "staff_crystal_arcane": {
+      "attack_damage": 4.0,
+      "attack_speed": -3.0,
+      "spell_attributes": [
+        {
+          "name": "arcane",
+          "value": 6.0,
           "operation": "ADDITION"
         }
       ]

@@ -1,0 +1,14 @@
+name = "Skylib"
+filename = "skylorlib-1.5.1.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/SXYcZO3i/versions/FTJf6QVA/skylorlib-1.5.1.jar"
+hash-format = "sha512"
+hash = "a22385580fe2d7276668076fc65113b41485b8b430d6da61ecadc80c411a6edce797f7a9f6e7bece8f890e284e6945c170827cada65a56226119c2d004d59ef0"
+
+[update]
+[update.modrinth]
+mod-id = "SXYcZO3i"
+version = "FTJf6QVA"

@@ -24,76 +24,33 @@ mode = "fancy"
 			[light_sources.settings.entities.minecraft]
 				glow_item_frame = false
 				player = true
-				area_effect_cloud = true
-				bee = true
-				sheep = true
-				rabbit = true
-				pig = true
-				item = true
-				witch = true
 				skeleton = true
-				creeper = true
-				zombie = true
-				enderman = true
-				spider = true
-				chest_minecart = true
-				tnt_minecart = true
-				fox = true
-				polar_bear = true
-				drowned = true
-				squid = true
-				glow_squid = true
-				axolotl = true
-				chicken = true
-				salmon = true
 				turtle = true
+				sheep = true
+				area_effect_cloud = true
+				dolphin = true
+				squid = true
+				pufferfish = true
 				cod = true
-				iron_golem = true
-				horse = true
-				cow = true
-				item_frame = true
-				cat = true
-				wolf = true
-
-			[light_sources.settings.entities.mca]
-				male_villager = true
-				female_villager = true
-				male_zombie_villager = true
-				female_zombie_villager = true
+				tropical_fish = true
+				zombie = true
+				bat = true
+				creeper = true
+				spider = true
+				item = true
+				enderman = true
 
 			[light_sources.settings.entities.naturalist]
-				snail = true
-				bear = true
-				firefly = true
-				duck = true
 				coral_snake = true
-				butterfly = true
-				bass = true
-				deer = true
-				lizard = true
-				robin = true
-				snake = true
-				rattlesnake = true
-				lion = true
-				cardinal = true
-				zebra = true
+				vulture = true
 
-			[light_sources.settings.entities.mimic]
-				mimic = true
+			[light_sources.settings.entities.promenade]
+				sunken_skeleton = true
+				lush_creeper = true
+
+			[light_sources.settings.entities.mca]
+				female_zombie_villager = true
 
 			[light_sources.settings.entities.rottencreatures]
 				undead_miner = true
-
-			[light_sources.settings.entities.additionaladditions]
-				glow_stick = true
-
-			[light_sources.settings.entities.promenade]
-				lush_creeper = true
-				duck = true
-
-			[light_sources.settings.entities.direbats]
-				direbat = true
-
-			[light_sources.settings.entities.ratsmischief]
-				rat = true
 

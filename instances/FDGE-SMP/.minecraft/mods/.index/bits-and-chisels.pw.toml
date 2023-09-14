@@ -1,0 +1,14 @@
+name = "Bits And Chisels"
+filename = "bitsandchisels-2.7.0.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/q8MC5tW2/versions/2.7.0/bitsandchisels-2.7.0.jar"
+hash-format = "sha512"
+hash = "429c278f8049d30062f9c6d535708f461fcc8252a12a2432a0d70306cae29f353555749ca938ded13a9c527b085d6972cf817fbbd852cfd6f1faf87c0d28551e"
+
+[update]
+[update.modrinth]
+mod-id = "q8MC5tW2"
+version = "DZiUyJjF"

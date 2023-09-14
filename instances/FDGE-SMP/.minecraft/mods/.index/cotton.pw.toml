@@ -1,0 +1,14 @@
+name = "Cotton"
+filename = "fabric-cotton-mod-1.0.4.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/KCHy8KsT/versions/bXm3Cc5N/fabric-cotton-mod-1.0.4.jar"
+hash-format = "sha512"
+hash = "e05e32080e091eedc6baf2d37b6e8e83273dc2ff1a01fae6e0f5cb17c9d8baa6da3976a85cd7e6ccc5910719f5c7fea61a92dc53aa76bf0d42fd2401fbf23325"
+
+[update]
+[update.modrinth]
+mod-id = "KCHy8KsT"
+version = "bXm3Cc5N"

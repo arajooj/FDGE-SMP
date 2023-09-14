@@ -1,0 +1,14 @@
+name = "Give Me Hats!"
+filename = "GiveMeHats-Fabric-1.19-2.5.0.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/QrLG6byX/versions/flDg97NN/GiveMeHats-Fabric-1.19-2.5.0.jar"
+hash-format = "sha512"
+hash = "2467d7614bc8a7e03af131ebfe2bfdad1a1fc111c044eb31b58230ee8eebd30993678e3003d3781889f3b829351ba5bc5ef70b8f636b5145ff70717e10a6d217"
+
+[update]
+[update.modrinth]
+mod-id = "QrLG6byX"
+version = "flDg97NN"

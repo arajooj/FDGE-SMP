@@ -1,0 +1,14 @@
+name = "From The Fog"
+filename = "From-The-Fog-1.19-v1.9.1-Forge-Fabric.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/p1WH6sHr/versions/TZ33FEFm/From-The-Fog-1.19-v1.9.1-Forge-Fabric.jar"
+hash-format = "sha512"
+hash = "f1ef65ebd50a0c89a74fe108453f99f787dbcc37de5b03278881a9bd5373548e454681ffc159daad5dc4b1afb08dbd64428bcfccfa9e11a5f0f3df80e407a392"
+
+[update]
+[update.modrinth]
+mod-id = "p1WH6sHr"
+version = "TZ33FEFm"

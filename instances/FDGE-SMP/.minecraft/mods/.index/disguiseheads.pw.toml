@@ -1,0 +1,14 @@
+name = "DisguiseHeads"
+filename = "disguiseheads-fabric-1.0.1-mc1.19.2.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/u4pgScAU/versions/nU9Lz1uw/disguiseheads-fabric-1.0.1-mc1.19.2.jar"
+hash-format = "sha512"
+hash = "a6c67e3deabff801ed49019752f014adaa295cd136175b4600f7b88e913e50c3c032355c204363bc49e4ca5d21d6a8a98d04ff294e957fd81cbc546c987bdce0"
+
+[update]
+[update.modrinth]
+mod-id = "u4pgScAU"
+version = "nU9Lz1uw"

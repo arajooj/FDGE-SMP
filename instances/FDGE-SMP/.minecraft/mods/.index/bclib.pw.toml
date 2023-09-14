@@ -1,0 +1,14 @@
+name = "BCLib"
+filename = "bclib-2.1.7.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/BgNRHReB/versions/aykCQLhD/bclib-2.1.7.jar"
+hash-format = "sha512"
+hash = "553b6de656c72a95fcd5fb404510e7af5e43f1b373e0ba6b72a3fd33167560550c822b86681be3058763392684a0c7768031652710322a05536db1403a07d65a"
+
+[update]
+[update.modrinth]
+mod-id = "BgNRHReB"
+version = "aykCQLhD"

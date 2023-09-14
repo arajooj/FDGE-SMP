@@ -1,0 +1,14 @@
+name = "JamLib"
+filename = "jamlib-0.6.0+1.19.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/IYY9Siz8/versions/MSmq1ClL/jamlib-0.6.0%2B1.19.jar"
+hash-format = "sha512"
+hash = "619d9b0b39ba28f4b35cd7d773baf7647fa436a92467c69298647eb60719080e9be442b933eebe1c96a631665060f9dfa0967b726a2aa4062c9823ccd082c7e7"
+
+[update]
+[update.modrinth]
+mod-id = "IYY9Siz8"
+version = "MSmq1ClL"

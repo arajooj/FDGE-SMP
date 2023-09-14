@@ -1,0 +1,14 @@
+name = "Gliders"
+filename = "vc_gliders-1.0.2-fabric.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/XiC6HzoU/versions/ZpxnuiTS/vc_gliders-1.0.2-fabric.jar"
+hash-format = "sha512"
+hash = "097f25f1543884fea8dcc1f08aa5ecf5761463d35db8d65650e876c582e10c080e363823077f912371716032b61a59c942f99417c9410bd7ee27c5395457b8c3"
+
+[update]
+[update.modrinth]
+mod-id = "XiC6HzoU"
+version = "ZpxnuiTS"

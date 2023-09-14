@@ -1,0 +1,14 @@
+name = "Mob Captains"
+filename = "mob-captains-v2.1.2.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/7tKn1fLd/versions/kD4h9ccY/mob-captains-v2.1.2.jar"
+hash-format = "sha512"
+hash = "eaf4d876fd6f329231d4a7e7cc40ff7791144d1e216dd6e9dc785f3f4d1c90f727160c7cd2e748a723f34d5b9eb8458626cb43fa657ffd3bff6598736508daaf"
+
+[update]
+[update.modrinth]
+mod-id = "7tKn1fLd"
+version = "kD4h9ccY"

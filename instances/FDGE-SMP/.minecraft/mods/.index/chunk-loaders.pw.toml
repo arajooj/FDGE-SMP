@@ -1,0 +1,14 @@
+name = "Chunk Loaders"
+filename = "chunkloaders-1.2.3a-fabric-mc1.19.2.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/t1VgucWo/versions/nsY9eCFI/chunkloaders-1.2.3a-fabric-mc1.19.2.jar"
+hash-format = "sha512"
+hash = "9e0edfe03bb6bd1930f8204a8ee11d8060fe932a734cdf8f78629bdc610c50b051d90760087d761ebb11fd0ec9fa7fd783c6da1048d75114fda50b37a7457be2"
+
+[update]
+[update.modrinth]
+mod-id = "t1VgucWo"
+version = "nsY9eCFI"

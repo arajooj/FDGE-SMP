@@ -1,0 +1,14 @@
+name = "Vinery"
+filename = "vinery-1.2.4.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/1DWmBJVA/versions/ibob4Vu4/vinery-1.2.4.jar"
+hash-format = "sha512"
+hash = "7d39e2c7460bda174f29457bdba185b585f59e30b40b8337444ef1ed95220d4e5583679b5de7a9f4072b0d5370333bf8824ac2ae8ad2347c598edd942421fd97"
+
+[update]
+[update.modrinth]
+mod-id = "1DWmBJVA"
+version = "ibob4Vu4"

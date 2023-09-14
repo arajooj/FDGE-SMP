@@ -1,0 +1,14 @@
+name = "NotifyMe"
+filename = "notify-me-1.0.1.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/PlFMCuam/versions/1GGbtDR8/notify-me-1.0.1.jar"
+hash-format = "sha512"
+hash = "481fb2e1522c6ab74850d544faa79abbeaea5917b5539b7dac4b4d097322d8794bb6b67424b5e3684b48c40a130c826c6367e88b1816289a60136845e4392445"
+
+[update]
+[update.modrinth]
+mod-id = "PlFMCuam"
+version = "1GGbtDR8"

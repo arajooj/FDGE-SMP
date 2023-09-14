@@ -1,0 +1,14 @@
+name = "Entity Texture Features"
+filename = "entity_texture_features_fabric_1.19.2-4.4.4.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/BVzZfTc1/versions/ASCvruGN/entity_texture_features_fabric_1.19.2-4.4.4.jar"
+hash-format = "sha512"
+hash = "ecd2c4bf23ae13edbb44b511a4bb7e70f7b6f577c566d2e2c7926ec367b9dfd9797ac8e587ae8bd0223c01ac57beb4b5118eea3b22e2537bd079c82270e235ff"
+
+[update]
+[update.modrinth]
+mod-id = "BVzZfTc1"
+version = "ASCvruGN"
