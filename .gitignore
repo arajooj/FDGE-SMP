@@ -4,6 +4,8 @@ node_modules
 
 
 # instance
+!instances/FDGE-SMP
+instances/*
 instances/FDGE-SMP/patches
 instances/FDGE-SMP/instance.cfg
 instances/instgroups.json
