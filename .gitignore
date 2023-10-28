@@ -5,6 +5,13 @@ node_modules
 # launcher
 launcher/minecraft_game
 
+# other instances
+instances/.LAUNCHER_TEMP
+instances/All the Mods 9 - ATM9
+instances/Better MC*
+instances/Prominence*
+instances/Vault Hunters 3rd Edition
+
 # instance
 instances/FDGE-SMP/patches
 instances/FDGE-SMP/instance.cfg
@@ -19,10 +26,6 @@ instances/FDGE-SMP/.minecraft/XaeroWaypoints
 instances/FDGE-SMP/.minecraft/XaeroWorldMap
 instances/FDGE-SMP/.minecraft/o_prof
 instances/FDGE-SMP/.minecraft/usercache.json
-
-# other instances
-instances/.LAUNCHER_TEMP
-instances/All the Mods 9 - ATM9
-instances/Better MC*
-instances/Prominence*
-instances/Vault Hunters 3rd Edition
+instances/FDGE-SMP/.minecraft/usernamecache.json
+instances/FDGE-SMP/.minecraft/crash-reports/*
+instances/FDGE-SMP/.minecraft/config/voicechat/username-cache.json

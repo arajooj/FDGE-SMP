@@ -4,5 +4,8 @@
     },
     "GuiSettings": {
         "continuous_crafting_saved_value": false
+    },
+    "AutoRefillSettings": {
+        "tool_damage_threshold": 1
     }
 }
