@@ -1,0 +1,14 @@
+name = "Too Many Players"
+filename = "toomanyplayers-1.20-1.1.5.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/KPVN4aiJ/versions/34TBzClS/toomanyplayers-1.20-1.1.5.jar"
+hash-format = "sha512"
+hash = "bf977beddf64c3f93f75bdc8e989e6396e1a2c7aea8b55dd2842c2b5da69e17ab46610430ec7235c6a8c1899220258806973ceaeb96092540060a2427fc251e3"
+
+[update]
+[update.modrinth]
+mod-id = "KPVN4aiJ"
+version = "34TBzClS"

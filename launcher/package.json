@@ -1,0 +1,15 @@
+{
+  "name": "fdge-smp-launcher",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@xmcl/core": "^2.12.1",
+    "@xmcl/installer": "^5.2.0"
+  }
+}

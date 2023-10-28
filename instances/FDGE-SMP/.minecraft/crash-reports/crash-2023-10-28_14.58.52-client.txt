@@ -1,0 +1,367 @@
+---- Minecraft Crash Report ----
+// There are four lights!
+
+Time: 2023-10-28 14:58:52
+Description: Exception in server tick loop
+
+java.lang.UnsupportedOperationException
+	at com.google.common.collect.ImmutableMap.put(ImmutableMap.java:780)
+	at me.isaiah.lb.LuckyBlockMod.addRecipe(LuckyBlockMod.java:115)
+	at me.isaiah.lb.LuckyBlockMod.lambda$onInitialize$4(LuckyBlockMod.java:93)
+	at net.fabricmc.fabric.api.event.server.ServerStartCallback.lambda$static$0(ServerStartCallback.java:33)
+	at net.fabricmc.fabric.impl.event.lifecycle.v0.LegacyEventInvokers.lambda$onInitialize$0(LegacyEventInvokers.java:31)
+	at net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents.lambda$static$2(ServerLifecycleEvents.java:49)
+	at net.minecraft.server.MinecraftServer.handler$cnf000$fabric-lifecycle-events-v1$afterSetupServer(MinecraftServer.java:4342)
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:650)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.7, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 4488362720 bytes (4280 MiB) / 8589934592 bytes (8192 MiB) up to 17179869184 bytes (16384 MiB)
+	CPUs: 32
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 9 5950X 16-Core Processor            
+	Identifier: AuthenticAMD Family 25 Model 33 Stepping 0
+	Microarchitecture: Zen 3
+	Frequency (GHz): 3.40
+	Number of physical packages: 1
+	Number of physical CPUs: 16
+	Number of logical CPUs: 32
+	Graphics card #0 name: Virtual Desktop Monitor
+	Graphics card #0 vendor: Virtual Desktop, Inc.
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: DriverVersion=15.39.56.845
+	Graphics card #1 name: NVIDIA GeForce RTX 3060
+	Graphics card #1 vendor: NVIDIA (0x10de)
+	Graphics card #1 VRAM (MB): 4095.00
+	Graphics card #1 deviceId: 0x2504
+	Graphics card #1 versionInfo: DriverVersion=31.0.15.4592
+	Memory slot #0 capacity (MB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Memory slot #2 capacity (MB): 16384.00
+	Memory slot #2 clockSpeed (GHz): 3.20
+	Memory slot #2 type: DDR4
+	Memory slot #3 capacity (MB): 16384.00
+	Memory slot #3 clockSpeed (GHz): 3.20
+	Memory slot #3 type: DDR4
+	Virtual memory max (MB): 69513.47
+	Virtual memory used (MB): 60746.39
+	Swap memory total (MB): 4096.00
+	Swap memory used (MB): 1249.39
+	JVM Flags: 3 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms8192m -Xmx16384m
+	Fabric Mods: 
+		ad_astra: Ad Astra 1.15.4
+		ae2: Applied Energistics 2 15.0.13
+			team_reborn_energy: Energy 3.0.0
+		ae2wtlib: AE2WTLib 15.1.2-fabric
+		alloy_forgery: Alloy Forgery 2.0.22+1.20
+		appleskin: AppleSkin 2.5.1+mc1.20
+		aquamirae: Aquamirae 6
+		architectury: Architectury 9.1.12
+		areas: Areas 5.0
+		automobility: Automobility 0.4.2+1.20.1-fabric
+			jsonem: JsonEM 0.2.1+1.20
+		axesareweapons: Axes Are Weapons 1.7.1
+		axiom: Axiom 1.5.1
+			com_moulberry_axiomclientapi_axiomclientapi_: axiomclientapi 1.0.0
+		azurelibarmor: AzureLib Armor 1.0.3
+		badpackets: Bad Packets 0.4.3
+		balm-fabric: Balm 7.1.4
+		bclib: BCLib 3.0.13
+			wunderlib: WunderLib 1.1.5
+		betterend: Better End 4.0.10
+		betterfurnacesreforged: Better Furnaces Reforged 1.1.1
+		betternether: Better Nether 9.0.9
+		betterpingdisplay: Better Ping Display 1.1.1
+		betterstats: Better Statistics Screen 3.4+fabric-1.20.1
+			tcdcommons: TCD Commons API 3.4+fabric-1.20.1
+		bitsandchisels: BitsAndChisels 2.7.3
+			stacc: Stacc 1.5.2+boneless2ahhhh
+		borderlessmining: Borderless Mining 1.1.8+1.20.1
+		botarium: Botarium 2.2.0
+		chunkloaders: Chunk Loaders 1.2.8+a
+		cloth-config: Cloth Config v11 11.1.106
+			cloth-basic-math: cloth-basic-math 0.6.1
+		collective: Collective 6.66
+		copperhopper: Copper Hopper 0.5.1+1.20.1
+		create: Create 0.5.1-d-build.5+mc1.20.1
+			com_google_code_findbugs_jsr305: jsr305 3.0.2
+			flywheel: Flywheel 0.6.10
+			forgeconfigapiport: Forge Config API Port 8.0.0
+			milk: Milk Lib 1.2.60
+				dripstone_fluid_lib: Dripstone Fluid Lib 3.0.2
+			porting_lib_accessors: Porting Lib Accessors 2.1.1127+1.20
+				porting_lib_core: Porting Lib Core 2.1.1127+1.20
+				porting_lib_gametest: Porting Lib GameTest 2.1.1127+1.20
+			porting_lib_base: Porting Lib Base 2.1.1127+1.20
+				porting_lib_lazy_registration: Porting Lib Lazy Register 2.1.1127+1.20
+				porting_lib_utility: Porting Lib Utility 2.1.1127+1.20
+			porting_lib_brewing: Porting Lib Brewing 2.1.1127+1.20
+			porting_lib_client_events: Porting Lib Client Events 2.1.1127+1.20
+			porting_lib_entity: Porting Lib Entity 2.1.1127+1.20
+				porting_lib_mixin_extensions: Porting Lib Mixin Extensions 2.1.1127+1.20
+			porting_lib_extensions: Porting Lib Extensions 2.1.1127+1.20
+				porting_lib_attributes: Porting Lib Attributes 2.1.1127+1.20
+				porting_lib_common: Porting Lib Common 2.1.1127+1.20
+			porting_lib_fake_players: Porting Lib Fake Players 2.1.1127+1.20
+			porting_lib_models: Porting Lib Models 2.1.1127+1.20
+				porting_lib_model_loader: Porting Lib Model Loader 2.1.1127+1.20
+			porting_lib_networking: Porting Lib Networking 2.1.1127+1.20
+			porting_lib_obj_loader: Porting Lib Obj Loader 2.1.1127+1.20
+			porting_lib_tags: Porting Lib Tags 3.0
+			porting_lib_tool_actions: Porting Lib Tool Actions 2.1.1127+1.20
+			porting_lib_transfer: Porting Lib Transfer 2.1.1127+1.20
+			reach-entity-attributes: Reach Entity Attributes 2.4.0
+			registrate-fabric: Registrate for Fabric 1.3.62-MC1.20.1
+				porting_lib_data: Porting Lib Data 2.1.1090+1.20
+				porting_lib_model_generators: Porting Lib Model Generators 2.1.1090+1.20
+					porting_lib_model_materials: Porting Lib Model Materials 2.1.1090+1.20
+		create_jetpack: Create Jetpack 4.0.0
+			flightlib: Flight Lib 2.0.0
+		create_new_age: Create: New Age 1.0.1
+		create_structures: Create: Structures 1.1.0
+		createaddition: Create Crafts & Additions 0.9.0
+		createbigcannons: Create Big Cannons 0.5.2.a-nightly-3b4e734
+		createdieselgenerators: Create Diesel Generators 2.1.3
+		createoreexcavation: Create Ore Excavation 1.4.0
+			chunk-storage-api-fabric: Chunk Storage Api Fabric 1.0.3
+		createreibugfix: CreateFabric&REIBugFix 0.1.0-create0.5.1-mc1.20.x
+			conditional-mixin: conditional mixin 0.3.2
+		createutilities: Create Utilities 0.1.3b+1.20.1
+		deeperdarker: Deeper and Darker 1.2.1
+			customportalapi: Custom Portal Api 0.0.1-beta64-1.20
+		dungeons_arise: When Dungeons Arise 2.1.57
+		ears: Ears 1.4.6
+		entityculling: EntityCulling-Fabric 1.6.2-mc1.20.1
+		estrogen: Estrogen 3.0.3+1.20.1
+		exordium: Exordium 1.2.1-mc1.20.1
+		extended_drawers: Extended Drawers 2.0.7+mc.1.20.1
+			com_github_llamalad7_mixinextras: MixinExtras 0.2.0-rc.5
+			config_toolkit: ConfigToolkit 1.0.0
+				io_determann_shadow-api-17: shadow-api-17 0.1.1
+				net_fabricmc_javapoet: javapoet 0.1.0
+			graphlib: Graph Lib 1.4.0+1.20
+				kmodlib-overlay: KModLib Overlay 0.2.12+1.20
+				libnetworkstack: Lib Network Stack 0.10.0
+			noindium: No Indium? 1.1.0+1.20
+			yet_another_config_lib_v3: YetAnotherConfigLib 3.2.1+1.20
+				com_twelvemonkeys_common_common-image: common-image 3.10.0-SNAPSHOT
+				com_twelvemonkeys_common_common-io: common-io 3.10.0-SNAPSHOT
+				com_twelvemonkeys_common_common-lang: common-lang 3.10.0-SNAPSHOT
+				com_twelvemonkeys_imageio_imageio-core: imageio-core 3.10.0-SNAPSHOT
+				com_twelvemonkeys_imageio_imageio-metadata: imageio-metadata 3.10.0-SNAPSHOT
+				com_twelvemonkeys_imageio_imageio-webp: imageio-webp 3.10.0-SNAPSHOT
+				org_quiltmc_parsers_gson: gson 0.2.1
+				org_quiltmc_parsers_json: json 0.2.1
+		extendedgears: Extended Cogwheels 2.1.0-1.20.1-0.5.1.c-fabric
+		fabric-api: Fabric API 0.90.4+1.20.1
+			fabric-api-base: Fabric API Base 0.4.30+7abfd51577
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.35+4d8536c977
+			fabric-biome-api-v1: Fabric Biome API (v1) 13.0.12+215bbe9677
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.10+92a0d36777
+			fabric-block-view-api-v2: Fabric BlockView API (v2) 1.0.0+92a0d36777
+			fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.40+b3afc78b77
+			fabric-client-tags-api-v1: Fabric Client Tags 1.1.1+97bb207577
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.33+f71b366f77
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.12+b3afc78b77
+			fabric-commands-v0: Fabric Commands (v0) 0.2.50+df3654b377
+			fabric-containers-v0: Fabric Containers (v0) 0.1.63+df3654b377
+			fabric-content-registries-v0: Fabric Content Registries (v0) 4.0.10+57aed33f77
+			fabric-convention-tags-v1: Fabric Convention Tags 1.5.4+a1a980da77
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.18+aeb40ebe77
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 12.3.2+d7b148e077
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.53+8536527b77
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.5.22+b3afc78b77
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.6.1+e91849a877
+			fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.62+df3654b377
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.38+b04edc7a77
+			fabric-item-api-v1: Fabric Item API (v1) 2.1.27+b3afc78b77
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.0.11+d7b148e077
+			fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.36+fb8d95da77
+			fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.34+df3654b377
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.2.21+b3afc78b77
+			fabric-loot-api-v2: Fabric Loot API (v2) 1.2.0+96dfa95977
+			fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.1.44+9e7660c677
+			fabric-message-api-v1: Fabric Message API (v1) 5.1.8+d7b148e077
+			fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.49+b3afc78b77
+			fabric-model-loading-api-v1: Fabric Model Loading API (v1) 1.0.2+709a987177
+			fabric-models-v0: Fabric Models (v0) 0.4.1+9386d8a777
+			fabric-networking-api-v1: Fabric Networking API (v1) 1.3.10+eeb8eb3677
+			fabric-networking-v0: Fabric Networking (v0) 0.3.50+df3654b377
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 11.1.2+4ee0bc6077
+			fabric-particles-v1: Fabric Particles (v1) 1.1.1+201a23a077
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 1.0.20+b3afc78b77
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 2.3.2+4df89eb277
+			fabric-renderer-api-v1: Fabric Renderer API (v1) 3.2.0+39a511ba77
+			fabric-renderer-indigo: Fabric Renderer - Indigo 1.5.0+39a511ba77
+			fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 3.2.45+df3654b377
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.36+92a0d36777
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.0.27+b3afc78b77
+			fabric-rendering-v0: Fabric Rendering (v0) 1.1.48+df3654b377
+			fabric-rendering-v1: Fabric Rendering (v1) 3.0.7+b3afc78b77
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.3.6+d7b148e077
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.11.9+132c48c177
+			fabric-screen-api-v1: Fabric Screen API (v1) 2.0.7+b3afc78b77
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.29+b3afc78b77
+			fabric-sound-api-v1: Fabric Sound API (v1) 1.0.12+b3afc78b77
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 3.3.1+195226a777
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 4.3.0+6c31357e77
+		fabric-language-kotlin: Fabric Language Kotlin 1.10.10+kotlin.1.9.10
+			org_jetbrains_kotlin_kotlin-reflect: kotlin-reflect 1.9.10
+			org_jetbrains_kotlin_kotlin-stdlib: kotlin-stdlib 1.9.10
+			org_jetbrains_kotlin_kotlin-stdlib-jdk7: kotlin-stdlib-jdk7 1.9.10
+			org_jetbrains_kotlin_kotlin-stdlib-jdk8: kotlin-stdlib-jdk8 1.9.10
+			org_jetbrains_kotlinx_atomicfu-jvm: atomicfu-jvm 0.22.0
+			org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm: kotlinx-coroutines-core-jvm 1.7.3
+			org_jetbrains_kotlinx_kotlinx-coroutines-jdk8: kotlinx-coroutines-jdk8 1.7.3
+			org_jetbrains_kotlinx_kotlinx-datetime-jvm: kotlinx-datetime-jvm 0.4.0
+			org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm: kotlinx-serialization-cbor-jvm 1.6.0
+			org_jetbrains_kotlinx_kotlinx-serialization-core-jvm: kotlinx-serialization-core-jvm 1.6.0
+			org_jetbrains_kotlinx_kotlinx-serialization-json-jvm: kotlinx-serialization-json-jvm 1.6.0
+		fabricloader: Fabric Loader 0.14.24
+		factory_api: Factory API 2.0.1
+		ferritecore: FerriteCore 6.0.1
+		fusion: Fusion 1.0.6
+		garnished: Create: Garnished 1.0+1.20.1
+		geckolib: Geckolib 4.2.3
+			com_eliotlash_mclib_mclib: mclib 20
+		gymbadges: GymBadges 1.0
+		immersive_portals: Immersive Portals 3.3.5
+			imm_ptl_core: Immersive Portals Core 3.3.5
+			q_misc_util: QMiscUtil 3.3.5
+		indium: Indium 1.0.27+mc1.20.1
+		inventoryprofilesnext: Inventory Profiles Next 1.10.9
+		itemcollectors: Item Collectors 1.1.8
+		java: Java HotSpot(TM) 64-Bit Server VM 17
+		krypton: Krypton 0.2.3
+			com_velocitypowered_velocity-native: velocity-native 3.2.0-SNAPSHOT
+		ksyxis: Ksyxis 1.1
+		kubejs: KubeJS 2001.6.3-build.80
+		lambdynlights: LambDynamicLights 2.3.2+1.20.1
+			pride: Pride Lib 1.2.0+1.19.4
+			spruceui: SpruceUI 5.0.0+1.20
+		languagereload: Language Reload 1.5.9+1.20.1
+		lazydfu: LazyDFU 0.1.3
+		libipn: libIPN 4.0.0
+		lithium: Lithium 0.11.2
+		luckyblocks: Lucky Blocks 1.4
+		mcwifipnp: LAN World Plug-n-Play 1.6.6
+		merequester: ME Requester 1.20.1-1.1.4
+		midnightlib: MidnightLib 1.4.1
+		mine_treasure_mr: Mine Treasure 1.2.9
+		minecells: Mine Cells 1.5.7
+			omega-config: OmegaConfig 1.2.3-1.18.1
+		minecraft: Minecraft 1.20.1
+		mob_captains_mr: Mob Captains 1-v2.1.2
+		modmenu: Mod Menu 7.2.2
+		mr_deeper_dark: Deeper Dark 2.2.1
+		mythicmobs: Mythic Mobs 1.4.0
+		nochatreports: No Chat Reports 1.20.1-v2.2.2
+		notenoughanimations: NotEnoughAnimations 1.6.4
+		notenoughcrashes: Not Enough Crashes 4.4.6+1.20.1
+		nvidium: Nvidium 0.2.2-beta
+		obscure_api: Obscure API 16
+		origins: Origins 1.10.0
+			apoli: Apoli 2.9.0
+				additionalentityattributes: Additional Entity Attributes 1.3.0+1.20.0
+				calio: Calio 1.11.0
+				cardinal-components-base: Cardinal Components API (base) 5.2.1
+				cardinal-components-entity: Cardinal Components API (entities) 5.2.1
+				playerabilitylib: Pal 1.8.0
+		owo: oωo 0.11.2+1.20
+			blue_endless_jankson: jankson 1.2.2
+		paladins: Paladins & Priests 1.0.1+1.20.1
+			com_github_zsoltmolnarrr_tinyconfig: TinyConfig 2.3.2
+		patchouli: Patchouli 1.20.1-81-FABRIC
+			fiber: fiber 0.23.0-2
+		pehkui: Pehkui 3.7.8+1.14.4-1.20.1
+			kanos_config: Kanos Config 0.4.1+1.14.4-1.19.4
+		player-animator: Player Animator 1.0.2-rc1+1.20
+		powah: Powah! 5.0.2
+		puffish_skills: Pufferfish's Skills 0.10.0
+		railways: Create: Steam 'n' Rails 1.5.1+fabric-mc1.20.1
+			mm: Manningham Mills 2.3
+		rechiseled: Rechiseled 1.1.5+a
+		rechiseledcreate: Rechiseled: Create 1.0.1
+		reeses-sodium-options: Reese's Sodium Options 1.6.5+mc1.20.1-build.95
+		reinfbarrel: Reinforced Barrels 2.4.1+1.20
+			reinfcore: Reinforced Core 3.1.2+1.20
+		reinfchest: Reinforced Chests 2.4.2+1.20
+		reinfshulker: Reinforced Shulker Boxes 2.5.0+1.20
+		resourcefulconfig: Resourcefulconfig 2.1.0
+		resourcefullib: Resourceful Lib 2.1.13
+			com_teamresourceful_bytecodecs: bytecodecs 1.0.2
+			com_teamresourceful_yabn: yabn 1.0.3
+		rhino: Rhino 2001.2.2-build.11
+		roughlyenoughitems: Roughly Enough Items 12.0.672
+			error_notifier: Error Notifier 1.0.9
+		runes: Runes 0.9.10+1.20.1
+		seasons: Fabric Seasons 2.3+1.20
+		simplyskills: SimplySkills 0.23.1+1.20.1
+		simplyswords: Simply Swords 1.51.5-1.20.1
+		sliceanddice: Create Slice & Dice 3.0.0
+		sodium: Sodium 0.5.3
+		sodium-extra: Sodium Extra 0.5.1+mc1.20.1-build.112
+			caffeineconfig: CaffeineConfig 1.3.0+1.17
+			crowdin-translate: CrowdinTranslate 1.4+1.19.3
+		spark: spark 1.10.53
+			fabric-permissions-api-v0: fabric-permissions-api 0.1-SNAPSHOT
+		spell_engine: Spell Engine 0.11.0+1.20.1
+		spell_power: Spell Power Attribute 0.9.18+1.20.1
+		spellbound_weapons_mr: Spellbound Weapons 4.0.5f
+		starlight: Starlight 1.1.2+fabric.dbc156f
+		status-effect-bars: Status Effect Bars 1.0.3
+		supermartijn642configlib: SuperMartijn642's Config Lib 1.1.8+a
+		supermartijn642corelib: SuperMartijn642's Core Lib 1.1.15
+		syncmatica: Syncmatica 1.20.1-0.3.11
+		tesseract: Tesseract 1.0.35a
+		things: Things 0.3.1+1.20
+			lavender: Lavender 0.1.0-pre.6+1.20
+				lavender-md: lavender-md 0.1.0-pre.3+1.20
+				lavender-md-owo-ui: lavender-md-owo-ui 0.1.0-pre.3+1.20
+		toomanyplayers: Too Many Players 1.20-1.1.5
+			libgui: LibGui 8.0.0+1.20
+				jankson: Jankson 5.0.1+j1.2.2
+				libninepatch: LibNinePatch 1.2.0
+		trashcans: Trash Cans 1.0.18
+		travelersbackpack: Traveler's Backpack 1.20.1-9.1.6
+		trinkets: Trinkets 3.7.1
+		ultris_mr: Ultris: Boss Expansion 5.6.9b
+		vcinteraction: Voice Chat Interaction 1.20.1-1.0.3
+			polymer-registry-sync-manipulator: Polymer (Registry Sync Manipulator) 0.5.0+1.20
+		veinmining: Vein Mining 1.2.1+1.20.1
+			spectrelib: SpectreLib 0.13.14+1.20.1
+				com_electronwill_night-config_core: core 3.6.5
+				com_electronwill_night-config_toml: toml 3.6.5
+		victus: Victus 0.1.14+1.20
+		voicechat: Simple Voice Chat 1.20.1-2.4.27
+		waystones: Waystones 14.0.2
+		wiretap: Wiretap 1.20.1-1.0.3
+		wthit: wthit 8.4.1
+		xaerominimap: Xaero's Minimap 23.8.4
+		xaeroworldmap: Xaero's World Map 1.36.0
+	Flywheel Backend: GL33 Instanced Arrays
+	Server Running: true
+	Player Count: 0 / 8; []
+	Data Packs: vanilla, fabric
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Experimental
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fabric'; Server brand changed to 'fabric'
+	Launched Version: 1.20.1
+	Suspected Mods: Minecraft (minecraft), Fabric Events Lifecycle (v0) (fabric-events-lifecycle-v0), Lucky Blocks (luckyblocks), Fabric Lifecycle Events (v1) (fabric-lifecycle-events-v1)
