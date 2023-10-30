@@ -22,48 +22,66 @@ mode = "fancy"
 		[light_sources.settings.entities]
 
 			[light_sources.settings.entities.minecraft]
-				chicken = true
 				bee = true
+				axolotl = true
+				egg = true
 				arrow = true
-				donkey = true
 				cow = true
-				chest_minecart = true
 				pig = true
-				slime = true
-				pillager = true
 				skeleton = true
-				iron_golem = true
-				area_effect_cloud = true
 				bat = true
 				husk = true
 				frog = true
-				cat = true
-				zombie = true
+				rabbit = true
+				silverfish = true
 				drowned = true
-				sheep = true
 				experience_orb = true
-				player = true
 				dolphin = true
 				item = true
-				potion = true
-				villager = true
+				stray = true
 				salmon = true
-				zombie_villager = true
+				wither_skeleton = true
+				piglin_brute = true
 				item_frame = true
 				vindicator = true
 				horse = true
-				painting = true
-				cod = true
 				glow_squid = true
-				witch = true
 				glow_item_frame = false
 				squid = true
-				spider = true
 				creeper = true
 				enderman = true
+				chicken = true
+				donkey = true
+				chest_minecart = true
+				tropical_fish = true
+				fox = true
+				slime = true
+				pillager = true
+				iron_golem = true
+				area_effect_cloud = true
+				piglin = true
+				cat = true
+				zombie = true
+				sheep = true
+				player = true
+				pufferfish = true
+				potion = true
+				villager = true
+				wolf = true
+				zombie_villager = true
+				painting = true
+				cod = true
+				witch = true
+				spider = true
+
+			[light_sources.settings.entities.valkyrienskies]
+				ship_mounting_entity = true
 
 			[light_sources.settings.entities.origins]
 				enderian_pearl = true
+
+			[light_sources.settings.entities.create]
+				stationary_contraption = true
 
 			[light_sources.settings.entities.automobility]
 				automobile = true

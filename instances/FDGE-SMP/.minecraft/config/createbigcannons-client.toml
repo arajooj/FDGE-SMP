@@ -1,4 +1,3 @@
-
 #.
 #Client-side config for Create Big Cannons.
 [client]
@@ -13,4 +12,3 @@
 	#How many particles are in a Fluid Blob of any size.
 	#Range: 0 ~ 1000
 	fluidBlobParticleCount = 20
-

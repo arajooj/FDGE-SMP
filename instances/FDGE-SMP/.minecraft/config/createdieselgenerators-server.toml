@@ -1,4 +1,3 @@
-
 ["Server Configs"]
 	#Speed of Slow Fuel Type in RPM
 	"Speed of Slow Fuel Type" = 48.0
@@ -16,4 +15,3 @@
 	"Strength of Weak Fuel Type" = 512.0
 	#c:plantoil tag compatibility
 	"c:plantoil tag compatibility" = true
-
