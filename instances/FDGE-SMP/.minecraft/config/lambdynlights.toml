@@ -22,6 +22,7 @@ mode = "fancy"
 		[light_sources.settings.entities]
 
 			[light_sources.settings.entities.minecraft]
+				panda = true
 				bee = true
 				axolotl = true
 				egg = true
@@ -39,15 +40,18 @@ mode = "fancy"
 				dolphin = true
 				item = true
 				stray = true
+				turtle = true
 				salmon = true
 				wither_skeleton = true
 				piglin_brute = true
+				ocelot = true
 				item_frame = true
 				vindicator = true
 				horse = true
 				glow_squid = true
 				glow_item_frame = false
 				squid = true
+				parrot = true
 				creeper = true
 				enderman = true
 				chicken = true
