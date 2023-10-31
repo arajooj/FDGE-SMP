@@ -119,6 +119,20 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_axiom.keybind.context:key.keyboard.left.alt
+key_axiom.keybind.builder_tool_slot:key.keyboard.0
+key_axiom.keybind.orbit_camera:key.keyboard.unknown
+key_axiom.keybind.toggle_editor_ui:key.keyboard.right.shift
+key_axiom.keybind.toggle_fast_place_cap:key.keyboard.unknown
+key_axiom.keybind.toggle_infinite_reach_cap:key.keyboard.unknown
+key_axiom.keybind.toggle_tinker_cap:key.keyboard.unknown
+key_axiom.keybind.toggle_no_updates_cap:key.keyboard.unknown
+key_axiom.keybind.toggle_force_place_cap:key.keyboard.unknown
+key_axiom.keybind.toggle_replace_mode_cap:key.keyboard.r
+key_axiom.keybind.toggle_bulldozer_cap:key.keyboard.unknown
+key_axiom.keybind.nudge_with_scroll:key.keyboard.unknown
+key_axiom.keybind.nudge_forwards:key.keyboard.unknown
+key_axiom.keybind.nudge_backwards:key.keyboard.unknown
 key_Switch Bedrodium work:key.keyboard.r
 key_key.toomanyplayers.hidePlayers:key.keyboard.unknown
 key_key.toomanyplayers.showOnlyHeads:key.keyboard.unknown
@@ -215,7 +229,7 @@ key_gui.xaero_map_zoom_in:key.keyboard.unknown
 key_gui.xaero_map_zoom_out:key.keyboard.unknown
 key_gui.xaero_quick_confirm:key.keyboard.unknown
 soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

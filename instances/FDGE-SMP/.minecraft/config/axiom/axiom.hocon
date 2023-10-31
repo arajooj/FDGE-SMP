@@ -13,7 +13,7 @@ capabilities {
     # Automatically swap to creative when opening the Context Menu
     autoSwapToCreative=true
     # Hold down left-click to break blocks very fast
-    bulldozer=true
+    bulldozer=false
     # Place blocks very fast in a controlled manner
     fastPlace=false
     flightCameraDirection=true
@@ -30,7 +30,7 @@ capabilities {
     # Right-click blocks to replace them with the held block
     replaceMode=false
     # Various useful interactions when right-clicking with your fist
-    tinker=true
+    tinker=false
     typeReplace=false
 }
 keybinds {
