@@ -34,8 +34,10 @@ mode = "fancy"
 				bat = true
 				husk = true
 				frog = true
+				experience_bottle = true
 				rabbit = true
 				silverfish = true
+				armor_stand = true
 				drowned = true
 				experience_orb = true
 				dolphin = true
@@ -55,6 +57,7 @@ mode = "fancy"
 				squid = true
 				parrot = true
 				creeper = true
+				lightning_bolt = true
 				enderman = true
 				chicken = true
 				donkey = true
@@ -68,6 +71,7 @@ mode = "fancy"
 				piglin = true
 				cat = true
 				zombie = true
+				guardian = true
 				sheep = true
 				player = true
 				pufferfish = true
@@ -75,13 +79,39 @@ mode = "fancy"
 				villager = true
 				wolf = true
 				zombie_villager = true
+				elder_guardian = true
 				painting = true
 				cod = true
 				witch = true
 				spider = true
 
+			[light_sources.settings.entities.powah]
+				charged_snowball = true
+
+			[light_sources.settings.entities.simplyswords]
+				battlestandard = true
+				battlestandarddark = true
+
 			[light_sources.settings.entities.valkyrienskies]
 				ship_mounting_entity = true
+
+			[light_sources.settings.entities.minecells]
+				grenadier = true
+				shocker = true
+				rancid_rat = true
+				leaping_zombie = true
+				kamikaze = true
+				protector = true
+				disgusting_worm = true
+				mutated_bat = true
+				magic_orb = true
+				scorpion_spit = true
+				undead_archer = true
+				shieldbearer = true
+				inquisitor = true
+				runner = true
+				sewers_tentacle = true
+				scorpion = true
 
 			[light_sources.settings.entities.origins]
 				enderian_pearl = true
@@ -94,8 +124,16 @@ mode = "fancy"
 
 			[light_sources.settings.entities.mythicmobs]
 				kobold_warrior = true
+				automaton = true
 				mushroom_thing = true
 				kobold = true
 				drake = true
 				chupacabra = true
+
+			[light_sources.settings.entities.aquamirae]
+				anglerfish = true
+				tortured_soul = true
+				maw = true
+				golden_moth = true
+				spinefish = true
 

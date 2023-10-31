@@ -1,4 +1,7 @@
-completedTutorials=[]
+completedTutorials=[
+    introduction,
+    "sculpt_draw_tool"
+]
 customDowngradeSuggestions=[]
 globalScale=1
 lastTranslationCount=32714

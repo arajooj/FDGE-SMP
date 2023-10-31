@@ -14,13 +14,13 @@
 	// Whether a message should be sent when a player enters an area.
 	"showEnterMessage": true,
 	// The prefix of the message whenever a player enters an area.
-	"enterPrefix": "Entering ",
+	"enterPrefix": "Entrando em ",
 	// The suffix of the message whenever a player enters an area.
 	"enterSuffix": ".",
 	// Whether a message should be sent when a player leaves an area.
 	"showLeaveMessage": true,
 	// The prefix of the message whenever a player leaves an area.
-	"leavePrefix": "Leaving ",
+	"leavePrefix": "Saindo de ",
 	// The suffix of the message whenever a player leaves an area.
 	"leaveSuffix": ".",
 	// Whether the text shown should be drawn with a shadow.
