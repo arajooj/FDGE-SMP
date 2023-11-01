@@ -14,7 +14,6 @@ instances/Vault Hunters 3rd Edition
 
 # instance
 instances/FDGE-SMP/patches
-instances/FDGE-SMP/instance.cfg
 instances/instgroups.json
 instances/FDGE-SMP/.minecraft/.fabric
 instances/FDGE-SMP/.minecraft/.mixin.out
