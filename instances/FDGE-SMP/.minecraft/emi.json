@@ -1,10 +1,8 @@
 {
-  "favorites": [
-    {
-      "stack": "item:minecraft:potato"
-    }
-  ],
+  "favorites": [],
   "lookup_history": [
+    "item:minecraft:cobweb",
+    "item:ae2:wireless_crafting_terminal{internalCurrentPower:1600000.0d}",
     "item:minecraft:crimson_button",
     "item:minecraft:crimson_pressure_plate"
   ],

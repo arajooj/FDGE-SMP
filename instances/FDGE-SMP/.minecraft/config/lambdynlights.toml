@@ -88,6 +88,10 @@ mode = "fancy"
 				skeleton_horse = true
 				magma_cube = true
 				goat = true
+				hoglin = true
+				phantom = true
+				llama = true
+				evoker = true
 
 			[light_sources.settings.entities.powah]
 				charged_snowball = true
@@ -157,6 +161,10 @@ mode = "fancy"
 				duck = true
 				coral_snake = true
 				canary = true
+				alligator = true
+				catfish = true
+				firefly = true
+				bluejay = true
 
 			[light_sources.settings.entities.promenade]
 				duck = true
@@ -171,10 +179,12 @@ mode = "fancy"
 				ghoul = true
 				nightmare = true
 				revenant = true
+				nameless_hanged = true
 
 			[light_sources.settings.entities.friendsandfoes]
 				rascal = true
 				moobloom = true
 				iceologer = true
 				copper_golem = true
+				glare = true
 
