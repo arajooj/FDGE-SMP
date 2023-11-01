@@ -75,6 +75,7 @@ mode = "fancy"
 				sheep = true
 				player = true
 				pufferfish = true
+				illusioner = true
 				potion = true
 				villager = true
 				wolf = true
@@ -84,6 +85,9 @@ mode = "fancy"
 				cod = true
 				witch = true
 				spider = true
+				skeleton_horse = true
+				magma_cube = true
+				goat = true
 
 			[light_sources.settings.entities.powah]
 				charged_snowball = true
@@ -136,4 +140,41 @@ mode = "fancy"
 				maw = true
 				golden_moth = true
 				spinefish = true
+
+			[light_sources.settings.entities.naturalist]
+				bear = true
+				boar = true
+				butterfly = true
+				bass = true
+				finch = true
+				deer = true
+				lizard = true
+				snail = true
+				cardinal = true
+				snake = true
+				robin = true
+				sparrow = true
+				duck = true
+				coral_snake = true
+				canary = true
+
+			[light_sources.settings.entities.promenade]
+				duck = true
+				lush_creeper = true
+				capybara = true
+
+			[light_sources.settings.entities.graveyard]
+				corrupted_vindicator = true
+				corrupted_pillager = true
+				acolyte = true
+				skeleton_creeper = true
+				ghoul = true
+				nightmare = true
+				revenant = true
+
+			[light_sources.settings.entities.friendsandfoes]
+				rascal = true
+				moobloom = true
+				iceologer = true
+				copper_golem = true
 

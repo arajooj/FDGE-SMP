@@ -1,0 +1,12 @@
+{
+  "allowMovement": {
+    "net.minecraft.class_434": true,
+    "com.supermartijn642.core.gui.WidgetScreen": true,
+    "io.github.kosmx.emotes.arch.gui.screen.ingame.FastChosseScreen": true,
+    "io.github.kosmx.emotes.arch.gui.screen.ingame.FullScreenListImpl": true
+  },
+  "hideBackground": {
+    "com.supermartijn642.core.gui.WidgetScreen": true,
+    "io.github.kosmx.emotes.arch.gui.screen.ingame.FastChosseScreen": true
+  }
+}

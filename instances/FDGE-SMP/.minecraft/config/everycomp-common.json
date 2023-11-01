@@ -1,0 +1,82 @@
+{
+  "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config",
+  "general": {
+    "creative_tab": true,
+    "assets_depend_on_loaded_packs": true,
+    "save_debug_resources": false,
+    "debug_packet": false
+  },
+  "types": {
+    "leaves_type": {
+      "betternether.willow": true,
+      "betternether.rubeus": true,
+      "betternether.anchor_tree": true,
+      "betternether.nether_sakura": true,
+      "ad_astra.glacian": true,
+      "betterend.pythadendron": true,
+      "betterend.lacugrove": true,
+      "betterend.dragon_tree": true,
+      "betterend.tenanea": true,
+      "betterend.lucernia": true,
+      "deeperdarker.echo": true,
+      "garnished.nut": true,
+      "garnished.peanut": true,
+      "garnished.walnut": true,
+      "garnished.cashew": true,
+      "garnished.macadamia": true,
+      "garnished.pistachio": true,
+      "garnished.almond": true,
+      "garnished.pecan": true,
+      "garnished.hazelnut": true,
+      "minecells.wilted": true,
+      "minecells.orange_wilted": true,
+      "minecells.red_wilted": true,
+      "promenade.sap_maple": true,
+      "promenade.vermilion_maple": true,
+      "promenade.fulvous_maple": true,
+      "promenade.mikado_maple": true,
+      "promenade.palm": true,
+      "promenade.snowy_spruce": true
+    },
+    "wood_type": {
+      "betternether.nether_reed": true,
+      "betternether.stalagnate": true,
+      "betternether.willow": true,
+      "betternether.wart": true,
+      "betternether.rubeus": true,
+      "betternether.mushroom_fir": true,
+      "betternether.nether_mushroom": true,
+      "betternether.anchor_tree": true,
+      "betternether.nether_sakura": true,
+      "ad_astra.aeronos": true,
+      "ad_astra.strophar": true,
+      "ad_astra.glacian": true,
+      "betterend.mossy_glowshroom": true,
+      "betterend.pythadendron": true,
+      "betterend.end_lotus": true,
+      "betterend.lacugrove": true,
+      "betterend.dragon_tree": true,
+      "betterend.tenanea": true,
+      "betterend.helix_tree": true,
+      "betterend.umbrella_tree": true,
+      "betterend.jellyshroom": true,
+      "betterend.lucernia": true,
+      "deeperdarker.echo": true,
+      "garnished.sepia": true,
+      "minecells.putrid": true,
+      "promenade.sakura": true,
+      "promenade.maple": true,
+      "promenade.palm": true,
+      "promenade.dark_amaranth": true
+    }
+  },
+  "entries": {
+    "leaves_type": {},
+    "wood_type": {
+      "farmersdelight.cabinet": true,
+      "friendsandfoes.beehive": true,
+      "create.window_pane": true,
+      "create.window": true
+    }
+  }
+}

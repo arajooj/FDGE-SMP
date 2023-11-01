@@ -8,7 +8,7 @@
         "paladins:holy_wand"
       ],
       "chance": 0.4,
-      "bonus_roll_chance": 1.2,
+      "bonus_roll": 0.2,
       "weight": 1,
       "enchant": {
         "min_power": 1.0,
@@ -28,7 +28,7 @@
         "paladins:prior_robe_feet"
       ],
       "chance": 0.5,
-      "bonus_roll_chance": 1.2,
+      "bonus_roll": 0.2,
       "weight": 1
     },
     "weapons_tier_0": {
@@ -39,7 +39,7 @@
         "paladins:stone_claymore"
       ],
       "chance": 0.5,
-      "bonus_roll_chance": 1.2,
+      "bonus_roll": 0.2,
       "weight": 1
     },
     "weapons_two_handed_tier_2_enchanted": {
@@ -49,7 +49,7 @@
         "paladins:diamond_great_hammer"
       ],
       "chance": 0.3,
-      "bonus_roll_chance": 1.2,
+      "bonus_roll": 0.2,
       "weight": 1,
       "enchant": {
         "min_power": 1.0,
@@ -69,7 +69,7 @@
         "paladins:priest_robe_feet"
       ],
       "chance": 0.25,
-      "bonus_roll_chance": 1.2,
+      "bonus_roll": 0.2,
       "weight": 1
     },
     "weapons_two_handed_tier_1": {
@@ -79,7 +79,7 @@
         "paladins:iron_great_hammer"
       ],
       "chance": 0.3,
-      "bonus_roll_chance": 1.2,
+      "bonus_roll": 0.2,
       "weight": 1
     },
     "weapons_two_handed_tier_2": {
@@ -89,7 +89,7 @@
         "paladins:diamond_great_hammer"
       ],
       "chance": 0.3,
-      "bonus_roll_chance": 1.2,
+      "bonus_roll": 0.2,
       "weight": 1
     },
     "weapons_one_handed_tier_1": {
@@ -99,7 +99,7 @@
         "paladins:iron_mace"
       ],
       "chance": 0.3,
-      "bonus_roll_chance": 1.2,
+      "bonus_roll": 0.2,
       "weight": 1
     },
     "weapons_one_handed_tier_2": {
@@ -108,7 +108,7 @@
         "paladins:diamond_mace"
       ],
       "chance": 0.3,
-      "bonus_roll_chance": 1.2,
+      "bonus_roll": 0.2,
       "weight": 1
     },
     "armor_tier_1_enchanted": {
@@ -123,7 +123,7 @@
         "paladins:priest_robe_feet"
       ],
       "chance": 0.25,
-      "bonus_roll_chance": 1.2,
+      "bonus_roll": 0.2,
       "weight": 1,
       "enchant": {
         "min_power": 1.0,

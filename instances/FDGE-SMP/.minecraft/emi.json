@@ -1,5 +1,9 @@
 {
-  "favorites": [],
+  "favorites": [
+    {
+      "stack": "item:minecraft:potato"
+    }
+  ],
   "lookup_history": [
     "item:minecraft:crimson_button",
     "item:minecraft:crimson_pressure_plate"
