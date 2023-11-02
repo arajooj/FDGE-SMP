@@ -7,37 +7,6 @@
     "debug_packet": false
   },
   "types": {
-    "leaves_type": {
-      "betternether.willow": true,
-      "betternether.rubeus": true,
-      "betternether.anchor_tree": true,
-      "betternether.nether_sakura": true,
-      "ad_astra.glacian": true,
-      "betterend.pythadendron": true,
-      "betterend.lacugrove": true,
-      "betterend.dragon_tree": true,
-      "betterend.tenanea": true,
-      "betterend.lucernia": true,
-      "deeperdarker.echo": true,
-      "garnished.nut": true,
-      "garnished.peanut": true,
-      "garnished.walnut": true,
-      "garnished.cashew": true,
-      "garnished.macadamia": true,
-      "garnished.pistachio": true,
-      "garnished.almond": true,
-      "garnished.pecan": true,
-      "garnished.hazelnut": true,
-      "minecells.wilted": true,
-      "minecells.orange_wilted": true,
-      "minecells.red_wilted": true,
-      "promenade.sap_maple": true,
-      "promenade.vermilion_maple": true,
-      "promenade.fulvous_maple": true,
-      "promenade.mikado_maple": true,
-      "promenade.palm": true,
-      "promenade.snowy_spruce": true
-    },
     "wood_type": {
       "betternether.nether_reed": true,
       "betternether.stalagnate": true,
@@ -68,15 +37,46 @@
       "promenade.maple": true,
       "promenade.palm": true,
       "promenade.dark_amaranth": true
+    },
+    "leaves_type": {
+      "betternether.willow": true,
+      "betternether.rubeus": true,
+      "betternether.anchor_tree": true,
+      "betternether.nether_sakura": true,
+      "ad_astra.glacian": true,
+      "betterend.pythadendron": true,
+      "betterend.lacugrove": true,
+      "betterend.dragon_tree": true,
+      "betterend.tenanea": true,
+      "betterend.lucernia": true,
+      "deeperdarker.echo": true,
+      "garnished.nut": true,
+      "garnished.peanut": true,
+      "garnished.walnut": true,
+      "garnished.cashew": true,
+      "garnished.macadamia": true,
+      "garnished.pistachio": true,
+      "garnished.almond": true,
+      "garnished.pecan": true,
+      "garnished.hazelnut": true,
+      "minecells.wilted": true,
+      "minecells.orange_wilted": true,
+      "minecells.red_wilted": true,
+      "promenade.sap_maple": true,
+      "promenade.vermilion_maple": true,
+      "promenade.fulvous_maple": true,
+      "promenade.mikado_maple": true,
+      "promenade.palm": true,
+      "promenade.snowy_spruce": true
     }
   },
   "entries": {
-    "leaves_type": {},
     "wood_type": {
       "farmersdelight.cabinet": true,
       "friendsandfoes.beehive": true,
       "create.window_pane": true,
       "create.window": true
-    }
+    },
+    "leaves_type": {}
   }
 }

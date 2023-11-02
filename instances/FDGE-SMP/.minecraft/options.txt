@@ -150,7 +150,7 @@ key_key.toomanyplayers.openConfigKey:key.keyboard.unknown
 key_key.ae2.wireless_terminal:key.keyboard.unknown
 key_key.ae2.portable_item_cell:key.keyboard.unknown
 key_key.ae2.portable_fluid_cell:key.keyboard.unknown
-key_key.ae2.guide:key.keyboard.u
+key_key.ae2.guide:key.keyboard.h
 key_key.ae2.wireless_pattern_encoding_terminal:key.keyboard.unknown
 key_key.ae2.wireless_pattern_access_terminal:key.keyboard.unknown
 key_key.ae2.ae2wtlib_restock:key.keyboard.unknown
@@ -252,7 +252,7 @@ key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.backspace
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 soundCategory_master:1.0
-soundCategory_music:0.01056338028169014
+soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

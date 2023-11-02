@@ -95,6 +95,11 @@ mode = "fancy"
 				fishing_bobber = true
 				cave_spider = true
 				firework_rocket = true
+				zombified_piglin = true
+				strider = true
+				blaze = true
+				small_fireball = true
+				ghast = true
 
 			[light_sources.settings.entities.powah]
 				charged_snowball = true
@@ -196,4 +201,10 @@ mode = "fancy"
 
 			[light_sources.settings.entities.spell_engine]
 				spell_projectile = true
+
+			[light_sources.settings.entities.betternether]
+				hydrogen_jellyfish = true
+				skull = true
+				firefly = true
+				naga = true
 
