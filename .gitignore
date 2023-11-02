@@ -30,3 +30,7 @@ instances/FDGE-SMP/.minecraft/crash-reports/*
 instances/FDGE-SMP/.minecraft/config/voicechat/username-cache.json
 instances/FDGE-SMP/.minecraft/emi.json
 instances/FDGE-SMP/.minecraft/config/chunky/tasks/*
+instances/FDGE-SMP/.minecraft/config/axiom/axiom.hocon
+instances/FDGE-SMP_*.zip
+instances/FDGE-SMP/.minecraft/emi.json
+instances/FDGE-SMP/.minecraft/config/voicechat/voicechat-volumes.properties

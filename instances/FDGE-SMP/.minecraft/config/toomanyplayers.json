@@ -1,5 +1,5 @@
 {
-  "toggleMod": true,
+  "toggleMod": false,
   "saveToMemory": "ALL",
   "toggleAreas": true,
   "firstRadius": 10.0,

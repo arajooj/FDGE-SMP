@@ -92,6 +92,9 @@ mode = "fancy"
 				phantom = true
 				llama = true
 				evoker = true
+				fishing_bobber = true
+				cave_spider = true
+				firework_rocket = true
 
 			[light_sources.settings.entities.powah]
 				charged_snowball = true
@@ -165,11 +168,13 @@ mode = "fancy"
 				catfish = true
 				firefly = true
 				bluejay = true
+				tortoise = true
 
 			[light_sources.settings.entities.promenade]
 				duck = true
 				lush_creeper = true
 				capybara = true
+				sunken_skeleton = true
 
 			[light_sources.settings.entities.graveyard]
 				corrupted_vindicator = true
@@ -187,4 +192,8 @@ mode = "fancy"
 				iceologer = true
 				copper_golem = true
 				glare = true
+				mauler = true
+
+			[light_sources.settings.entities.spell_engine]
+				spell_projectile = true
 
