@@ -1,122 +1,107 @@
-const { getVersionList, install } = require("@xmcl/installer");
+const {
+  getVersionList,
+  install,
+  installDependencies,
+} = require("@xmcl/installer");
 const { Version, diagnose, launch } = require("@xmcl/core");
-const readline = require("readline");
+const fs = require("fs").promises;
+const path = require("path");
+const { constants } = require("fs");
 
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
-
-const gamePath = "./minecraft_game";
-const GAME_VERSION = "1.20.2";
+const MAX_RETRY_ATTEMPTS = 10;
+const GAME_PATH = "./minecraft_game";
+const GAME_VERSION = "1.20.1";
+const JAVA2DOWN =
+  "https://download.oracle.com/java/17/archive/jdk-17.0.9_windows-x64_bin.zip";
 
 async function installGame() {
   const list = (await getVersionList()).versions;
   const aVersion = list.find((v) => v.id === GAME_VERSION);
 
   console.log("Iniciando instalação...");
-  await install(aVersion, gamePath);
+  await install(aVersion, GAME_PATH);
   console.log("Jogo instalado com sucesso.");
 }
 
-async function diagnoseGame() {
-  const resolvedVersion = await Version.parse(gamePath, GAME_VERSION);
-  const report = await diagnose(
-    resolvedVersion.id,
-    resolvedVersion.minecraftDirectory
-  );
-
-  const issues = report.issues;
-
-  for (let issue of issues) {
-    switch (issue.role) {
-      case "minecraftJar":
-        console.error("Problema detectado com o arquivo JAR do Minecraft.");
-        break;
-      case "versionJson":
-        console.error("Problema detectado com o JSON da versão.");
-        break;
-      case "library":
-        console.error(
-          "Uma ou mais bibliotecas estão faltando ou estão corrompidas."
-        );
-        break;
-      case "assets":
-        console.error("Alguns assets estão faltando ou estão corrompidos.");
-        break;
-      default:
-        console.error("Problema desconhecido detectado.");
-        break;
-    }
-  }
-}
-
-async function checkAndUpdateGame() {
-  const resolvedVersion = await Version.parse(gamePath, GAME_VERSION);
-  const report = await diagnose(
-    resolvedVersion.id,
-    resolvedVersion.minecraftDirectory
-  );
-
-  const issues = report.issues;
-
-  if (issues.length === 0) {
-    console.log("Tudo parece estar em ordem com o jogo!");
-    return;
-  }
-
-  console.log("Detectados problemas com o jogo. Tentando corrigir...");
-
-  for (let issue of issues) {
-    switch (issue.role) {
-      case "minecraftJar":
-      case "versionJson":
-      case "library":
-      case "assets":
-        console.log(`Corrigindo ${issue.role}...`);
-        await install({ id: GAME_VERSION, type: "release" }, gamePath);
-        break;
-    }
-  }
-
-  console.log(
-    "Problemas corrigidos. Você pode tentar iniciar o jogo novamente."
-  );
+async function installDep() {
+  console.log("Instalando dependências...");
+  const resolvedVersion = await Version.parse(GAME_PATH, GAME_VERSION);
+  await installDependencies(resolvedVersion);
+  console.log("Dependências instaladas com sucesso.");
 }
 
 async function startGame() {
-  const javaPath = "java";
+  const javaPath =
+    "Z:/Repositorios/Mine/FDGE-SMP/launcher/jdk-17.0.9/bin/java.exe";
 
   try {
     const proc = await launch({
-      gamePath: gamePath,
+      gamePath: GAME_PATH,
       javaPath: javaPath,
       version: GAME_VERSION,
     });
     console.log("Jogo iniciado!");
   } catch (error) {
     console.error("Erro ao iniciar o jogo:", error.message);
-    await diagnoseGame();
   }
 }
 
-rl.question(
-  "Digite 1 para instalar, 2 para iniciar o jogo, 3 para verificar e corrigir arquivos: ",
-  function (input) {
-    switch (input) {
-      case "1":
-        installGame();
-        break;
-      case "2":
-        startGame();
-        break;
-      case "3":
-        checkAndUpdateGame();
-        break;
-      default:
-        console.log("Opção inválida.");
-        break;
-    }
-    rl.close();
+async function gameExists() {
+  try {
+    await fs.access(GAME_PATH, constants.F_OK);
+    return true;
+  } catch {
+    return false;
   }
-);
+}
+
+async function main() {
+  let gameInstalled = false;
+  let depsInstalled = false;
+
+  // Tenta instalar o jogo
+  for (let attempt = 1; attempt <= MAX_RETRY_ATTEMPTS; attempt++) {
+    try {
+      if (!gameInstalled && !(await gameExists())) {
+        await installGame();
+      }
+      gameInstalled = true;
+      break;
+    } catch (error) {
+      console.error(`Erro ao instalar o jogo (Tentativa ${attempt}):`, error);
+      if (attempt === MAX_RETRY_ATTEMPTS) {
+        throw new Error(
+          "Não foi possível instalar o jogo após várias tentativas."
+        );
+      }
+    }
+  }
+
+  // Tenta instalar as dependências
+  for (let attempt = 1; attempt <= MAX_RETRY_ATTEMPTS; attempt++) {
+    try {
+      if (!depsInstalled) {
+        await installDep();
+        depsInstalled = true;
+      }
+      break;
+    } catch (error) {
+      console.error(
+        `Erro ao instalar as dependências (Tentativa ${attempt}):`,
+        error
+      );
+      if (attempt === MAX_RETRY_ATTEMPTS) {
+        throw new Error(
+          "Não foi possível instalar as dependências após várias tentativas."
+        );
+      }
+    }
+  }
+
+  // Se tudo estiver instalado, inicia o jogo
+  if (gameInstalled && depsInstalled) {
+    await startGame();
+  }
+}
+
+main().catch((error) => console.error("Erro no processo:", error));
