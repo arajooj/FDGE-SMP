@@ -100,6 +100,7 @@ mode = "fancy"
 				blaze = true
 				small_fireball = true
 				ghast = true
+				boat = true
 
 			[light_sources.settings.entities.powah]
 				charged_snowball = true
@@ -174,6 +175,8 @@ mode = "fancy"
 				firefly = true
 				bluejay = true
 				tortoise = true
+				rattlesnake = true
+				lizard_tail = true
 
 			[light_sources.settings.entities.promenade]
 				duck = true

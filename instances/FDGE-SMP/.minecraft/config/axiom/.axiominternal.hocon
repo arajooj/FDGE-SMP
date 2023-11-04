@@ -1,6 +1,9 @@
 completedTutorials=[
     introduction,
-    "sculpt_draw_tool"
+    "sculpt_draw_tool",
+    "magic_select_tool",
+    "box_select_tool",
+    selection
 ]
 customDowngradeSuggestions=[]
 globalScale=1
