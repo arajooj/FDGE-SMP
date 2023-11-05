@@ -1,7 +1,7 @@
 {
 	"enablePlayerExCompatibility": false,
 	"treeResetOnDeath": false,
-	"disableDefaultPuffishTrees": true,
+	"disableDefaultPuffishTrees": false,
 	"enableBuildSharing": false,
 	"skillChronicleCooldown": 12000,
 	"removeUnlockRestrictions": false,

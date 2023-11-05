@@ -150,7 +150,7 @@ key_key.toomanyplayers.openConfigKey:key.keyboard.unknown
 key_key.ae2.wireless_terminal:key.keyboard.unknown
 key_key.ae2.portable_item_cell:key.keyboard.unknown
 key_key.ae2.portable_fluid_cell:key.keyboard.unknown
-key_key.ae2.guide:key.keyboard.h
+key_key.ae2.guide:key.keyboard.l
 key_key.ae2.wireless_pattern_encoding_terminal:key.keyboard.unknown
 key_key.ae2.wireless_pattern_access_terminal:key.keyboard.unknown
 key_key.ae2.ae2wtlib_restock:key.keyboard.unknown
@@ -190,7 +190,7 @@ key_key.origins.primary_active:key.keyboard.f
 key_key.origins.secondary_active:key.keyboard.g
 key_key.origins.view_origin:key.keyboard.o
 key_key.puffish_skills.open:key.keyboard.k
-key_key.simplyskills.ability1:key.keyboard.l
+key_key.simplyskills.ability1:key.keyboard.h
 key_keybindings.spell_engine.bypass_spell_hotbar:key.keyboard.left.alt
 key_keybindings.spell_engine.spell_hotbar_1:key.keyboard.unknown
 key_keybindings.spell_engine.spell_hotbar_2:key.keyboard.unknown

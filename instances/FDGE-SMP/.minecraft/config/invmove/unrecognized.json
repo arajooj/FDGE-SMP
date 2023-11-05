@@ -40,7 +40,8 @@
     "wily.betterfurnaces.client.screen.FurnaceScreen": true,
     "com.simibubi.create.foundation.ponder.ui.PonderUI": true,
     "de.maxhenkel.voicechat.gui.group.JoinGroupScreen": true,
-    "com.finallion.graveyard.client.gui.OssuaryScreen": true
+    "com.finallion.graveyard.client.gui.OssuaryScreen": true,
+    "vazkii.patchouli.client.book.gui.GuiBookLanding": true
   },
   "hideBackground": {
     "com.supermartijn642.core.gui.WidgetScreen": true,
@@ -50,6 +51,7 @@
     "com.tiviacz.travelersbackpack.client.screen.TravelersBackpackHandledScreen": true,
     "net.blay09.mods.waystones.client.gui.screen.WaystoneSelectionScreen": true,
     "wily.betterfurnaces.client.screen.FurnaceScreen": true,
-    "com.finallion.graveyard.client.gui.OssuaryScreen": true
+    "com.finallion.graveyard.client.gui.OssuaryScreen": true,
+    "vazkii.patchouli.client.book.gui.GuiBookLanding": true
   }
 }
