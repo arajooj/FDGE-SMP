@@ -1,6 +1,6 @@
 {
   "name": "fdge-smp-launcher",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.mjs",
   "scripts": {
@@ -10,6 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "@xmcl/core": "^2.12.1",
-    "@xmcl/installer": "^5.2.0"
+    "@xmcl/installer": "^5.2.0",
+    "@xmcl/modrinth": "^2.2.0",
+    "axios": "^1.6.0",
+    "extract-zip": "^2.0.1"
   }
 }
