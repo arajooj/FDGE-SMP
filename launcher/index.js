@@ -9,7 +9,7 @@ const path = require("path");
 const { constants } = require("fs");
 
 const MAX_RETRY_ATTEMPTS = 10;
-const GAME_PATH = "./minecraft_game";
+const GAME_PATH = "C:/FDGE-SMP/.minecraft";
 const GAME_VERSION = "1.20.1";
 const JAVA2DOWN =
   "https://download.oracle.com/java/17/archive/jdk-17.0.9_windows-x64_bin.zip";

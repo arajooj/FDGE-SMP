@@ -2,13 +2,18 @@
   "modpackName": "FDGE-SMP",
   "modpackHost": true,
   "generateModpackOnStart": true,
-  "syncedFiles": ["/mods/", "/config/"],
+  "syncedFiles": [
+    "/mods/",
+    "/config/"
+  ],
   "excludeSyncedFiles": [
     "/mods/iDontWantThisModInModpack.jar",
     "/config/andThisConfigToo.json",
     "/mods/andAllTheseMods-*.jar"
   ],
-  "allowEditsInFiles": ["/options.txt"],
+  "allowEditsInFiles": [
+    "/options.txt"
+  ],
   "optionalModpack": false,
   "autoExcludeServerSideMods": true,
   "hostThreads": 8,
@@ -19,5 +24,7 @@
   "reverseProxy": false,
   "externalModpackHostLink": "",
   "selfUpdater": true,
-  "acceptedLoaders": ["fabric"]
+  "acceptedLoaders": [
+    "fabric"
+  ]
 }

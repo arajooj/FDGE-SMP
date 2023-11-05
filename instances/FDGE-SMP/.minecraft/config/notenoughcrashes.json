@@ -1,5 +1,5 @@
 {
-  "disableReturnToMainMenu": false,
+  "disableReturnToMainMenu": true,
   "catchInitializationCrashes": true,
   "debugModIdentification": false,
   "crashLimit": 20,
