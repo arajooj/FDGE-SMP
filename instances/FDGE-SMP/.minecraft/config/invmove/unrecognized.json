@@ -42,7 +42,8 @@
     "de.maxhenkel.voicechat.gui.group.JoinGroupScreen": true,
     "com.finallion.graveyard.client.gui.OssuaryScreen": true,
     "vazkii.patchouli.client.book.gui.GuiBookLanding": true,
-    "bettercommandblockui.main.ui.screen.BetterCommandBlockScreen": true
+    "bettercommandblockui.main.ui.screen.BetterCommandBlockScreen": true,
+    "appeng.client.gui.implementations.VibrationChamberScreen": true
   },
   "hideBackground": {
     "com.supermartijn642.core.gui.WidgetScreen": true,
@@ -53,6 +54,7 @@
     "net.blay09.mods.waystones.client.gui.screen.WaystoneSelectionScreen": true,
     "wily.betterfurnaces.client.screen.FurnaceScreen": true,
     "com.finallion.graveyard.client.gui.OssuaryScreen": true,
-    "vazkii.patchouli.client.book.gui.GuiBookLanding": true
+    "vazkii.patchouli.client.book.gui.GuiBookLanding": true,
+    "appeng.client.gui.implementations.VibrationChamberScreen": true
   }
 }
