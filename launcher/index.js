@@ -8,7 +8,12 @@ const {
 } = require("@xmcl/installer");
 
 const { getLoaderArtifactListFor } = require("@xmcl/installer");
-const { Version, diagnose, launch, MinecraftLocation } = require("@xmcl/core");
+const { Version, diagnose, launch } = require("@xmcl/core");
+const {
+  ModrinthV2Client,
+  ProjectVersion,
+  getProjectVersions,
+} = require("@xmcl/modrinth");
 const path = require("path");
 const { constants } = require("fs");
 const os = require("os");
@@ -24,6 +29,8 @@ const JAVA_PATH = "C:/FDGE-SMP/java";
 const GAME_VERSION = "1.20.1";
 const JAVA2DOWN =
   "https://download.oracle.com/java/17/archive/jdk-17.0.9_windows-x64_bin.zip";
+const MODS_URL = "https://files.fdge.com.br/api/public/dl/tC8zLyZf/";
+const MODS_PATH = path.join(GAME_PATH, "mods");
 
 async function tryInstallFabric() {
   // Substitua 'yourMinecraftVersion' pela versão do Minecraft que deseja usar
@@ -64,6 +71,43 @@ async function tryInstallFabric() {
   await installDependencies(resolvedVersion);
 
   console.log("Fabric instalado com sucesso.");
+}
+
+function delay(duration) {
+  return new Promise((resolve) => setTimeout(resolve, duration));
+}
+
+async function downloadAndExtractMods(modsUrl, modsPath) {
+  console.log("Baixando mods...");
+
+  // Define o caminho do arquivo zip temporário
+  const modsZipPath = path.join(os.tmpdir(), "mods.zip");
+
+  // Baixa o arquivo
+  const response = await axios({
+    method: "GET",
+    url: modsUrl,
+    responseType: "stream",
+  });
+
+  // Salva o arquivo no caminho temporário
+  const writer = response.data.pipe(fs.createWriteStream(modsZipPath));
+  await new Promise((resolve, reject) => {
+    writer.on("finish", resolve);
+    writer.on("error", reject);
+  });
+
+  console.log("Mods baixados. Iniciando extração...");
+
+  // Cria a pasta mods se ela não existir
+  if (!fs.existsSync(modsPath)) {
+    fs.mkdirSync(modsPath, { recursive: true });
+  }
+
+  // Extrai o arquivo dentro da pasta mods
+  await extract(modsZipPath, { dir: path.resolve(modsPath) });
+
+  console.log("Mods extraídos com sucesso.");
 }
 
 // Função para baixar o Java
@@ -170,65 +214,68 @@ async function main() {
   let gameInstalled = false;
   let depsInstalled = false;
   let fabricInstalled = false;
+  let modsDownloaded = false;
 
+  // Verifica se o Java já está baixado
   if (!(await isJavaDownloaded())) {
     await downloadJava();
   }
 
   // Tenta instalar o jogo
-  for (let attempt = 1; attempt <= MAX_RETRY_ATTEMPTS; attempt++) {
+  if (!gameInstalled && !(await gameExists())) {
     try {
-      if (!gameInstalled && !(await gameExists())) {
-        await installGame();
-      }
+      await installGame();
       gameInstalled = true;
-      break;
     } catch (error) {
-      console.error(`Erro ao instalar o jogo (Tentativa ${attempt}):`, error);
-      if (attempt === MAX_RETRY_ATTEMPTS) {
-        throw new Error(
-          "Não foi possível instalar o jogo após várias tentativas."
-        );
-      }
+      console.error("Erro ao instalar o jogo:", error);
+      throw new Error("Não foi possível instalar o jogo.");
     }
   }
 
   // Tenta instalar as dependências
-  for (let attempt = 1; attempt <= MAX_RETRY_ATTEMPTS; attempt++) {
+  if (!depsInstalled) {
     try {
-      if (!depsInstalled) {
-        await installDep();
-        depsInstalled = true;
-      }
-      break;
+      await installDep();
+      depsInstalled = true;
     } catch (error) {
-      console.error(
-        `Erro ao instalar as dependências (Tentativa ${attempt}):`,
-        error
-      );
-      if (attempt === MAX_RETRY_ATTEMPTS) {
-        throw new Error(
-          "Não foi possível instalar as dependências após várias tentativas."
-        );
-      }
+      console.error("Erro ao instalar as dependências:", error);
+      throw new Error("Não foi possível instalar as dependências.");
     }
   }
 
-  // Tenta instalar o Fabric=
+  // Tenta instalar o Fabric
+  if (!fabricInstalled) {
+    try {
+      console.log("Instalando Fabric...");
+      await tryInstallFabric();
+      fabricInstalled = true; // Certifique-se de definir isso após uma instalação bem-sucedida
+    } catch (error) {
+      console.error("Erro ao instalar o Fabric:", error);
+      throw new Error("Não foi possível instalar o Fabric.");
+    }
+  }
 
-  try {
-    console.log("Instalando Fabric...");
-    await tryInstallFabric();
-    fabricInstalled = true; // Certifique-se de definir isso após uma instalação bem-sucedida
-  } catch (error) {
-    console.error("Erro ao instalar o Fabric:", error);
-    throw new Error("Não foi possível instalar o Fabric.");
+  // Tenta baixar e extrair os mods
+  if (fabricInstalled && !modsDownloaded) {
+    try {
+      await downloadAndExtractMods(MODS_URL, MODS_PATH);
+      modsDownloaded = true;
+    } catch (error) {
+      console.error("Erro ao baixar ou extrair os mods:", error);
+      throw new Error("Não foi possível baixar ou extrair os mods.");
+    }
   }
 
   // Se tudo estiver instalado, inicia o jogo
-  if (gameInstalled && depsInstalled && fabricInstalled) {
-    await startGame();
+  if (gameInstalled && depsInstalled && fabricInstalled && modsDownloaded) {
+    try {
+      await startGame();
+    } catch (error) {
+      console.error("Erro ao iniciar o jogo:", error);
+      throw new Error("Não foi possível iniciar o jogo.");
+    }
   }
 }
 
+// Inicia o processo
 main().catch((error) => console.error("Erro no processo:", error));
