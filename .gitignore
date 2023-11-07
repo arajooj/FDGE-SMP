@@ -15,6 +15,7 @@ customMods/SimplySkills-1.20.1/build
 # launcher
 launcher/minecraft_game*
 launcher/jdk*
+launcher/fdge-smp-launcher.exe
 
 # other instances
 instances/.LAUNCHER_TEMP
@@ -50,3 +51,4 @@ instances/FDGE-SMP/.minecraft/config/voicechat/voicechat-volumes.properties
 instances/FDGE-SMP/.minecraft/deaths.dat
 instances/FDGE-SMP/.minecraft/automodpack/modpacks
 instances/FDGE-SMP/.minecraft/player_models/*
+
