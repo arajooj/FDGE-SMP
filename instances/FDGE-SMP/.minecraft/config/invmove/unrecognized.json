@@ -43,7 +43,8 @@
     "com.finallion.graveyard.client.gui.OssuaryScreen": true,
     "vazkii.patchouli.client.book.gui.GuiBookLanding": true,
     "bettercommandblockui.main.ui.screen.BetterCommandBlockScreen": true,
-    "appeng.client.gui.implementations.VibrationChamberScreen": true
+    "appeng.client.gui.implementations.VibrationChamberScreen": true,
+    "com.tom.cpm.client.GuiImpl": true
   },
   "hideBackground": {
     "com.supermartijn642.core.gui.WidgetScreen": true,
@@ -55,6 +56,7 @@
     "wily.betterfurnaces.client.screen.FurnaceScreen": true,
     "com.finallion.graveyard.client.gui.OssuaryScreen": true,
     "vazkii.patchouli.client.book.gui.GuiBookLanding": true,
-    "appeng.client.gui.implementations.VibrationChamberScreen": true
+    "appeng.client.gui.implementations.VibrationChamberScreen": true,
+    "com.tom.cpm.client.GuiImpl": true
   }
 }
