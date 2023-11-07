@@ -155,6 +155,7 @@ key_key.ae2.wireless_pattern_encoding_terminal:key.keyboard.unknown
 key_key.ae2.wireless_pattern_access_terminal:key.keyboard.unknown
 key_key.ae2.ae2wtlib_restock:key.keyboard.unknown
 key_key.ae2.ae2wtlib_magnet:key.keyboard.unknown
+key_key.azurelib.reload:key.keyboard.r
 key_keybinds.bettercombat.feint:key.keyboard.unknown
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
 key_key.bcbui.areaselectioninput:key.keyboard.unknown
@@ -172,6 +173,14 @@ key_key.camerautils.third_person_settings:key.keyboard.unknown
 key_key.camerautils.zoom_settings:key.keyboard.unknown
 key_key.camerautils.zoom_animation_settings:key.keyboard.unknown
 key_chunkloaders.keys.open_screen:key.keyboard.delete
+key_key.cpm.gestureMenu:key.keyboard.p
+key_key.cpm.renderToggle:key.keyboard.unknown
+key_key.cpm.qa_1:key.keyboard.unknown
+key_key.cpm.qa_2:key.keyboard.unknown
+key_key.cpm.qa_3:key.keyboard.unknown
+key_key.cpm.qa_4:key.keyboard.unknown
+key_key.cpm.qa_5:key.keyboard.unknown
+key_key.cpm.qa_6:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_key.createbigcannons.pitch_mode:key.keyboard.c
@@ -248,7 +257,7 @@ key_gui.xaero_open_settings:key.keyboard.unknown
 key_gui.xaero_map_zoom_in:key.keyboard.unknown
 key_gui.xaero_map_zoom_out:key.keyboard.unknown
 key_gui.xaero_quick_confirm:key.keyboard.unknown
-key_iris.keybind.reload:key.keyboard.r
+key_iris.keybind.reload:key.keyboard.backslash
 key_iris.keybind.toggleShaders:key.keyboard.backspace
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 soundCategory_master:1.0
