@@ -6,6 +6,11 @@ node_modules
 servers
 instances/FDGE-SMP/.minecraft/automodpack/modpacks
 
+# customMods
+customMods/SimplySkills-1.20.1/.grade
+customMods/SimplySkills-1.20.1/.idea
+customMods/SimplySkills-1.20.1/build
+
 # launcher
 launcher/minecraft_game*
 launcher/jdk*
@@ -16,6 +21,8 @@ instances/All the Mods 9 - ATM9
 instances/Better MC*
 instances/Prominence*
 instances/Vault Hunters 3rd Edition
+instances/FDGE-SMP-LITE/
+instances/FDGE-SMP_0.1.6
 
 # instance
 instances/FDGE-SMP/patches
@@ -39,3 +46,4 @@ instances/FDGE-SMP/.minecraft/config/axiom/axiom.hocon
 instances/FDGE-SMP_*.zip
 instances/FDGE-SMP/.minecraft/emi.json
 instances/FDGE-SMP/.minecraft/config/voicechat/voicechat-volumes.properties
+instances/FDGE-SMP/.minecraft/deaths.dat
