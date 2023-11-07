@@ -1,0 +1,14 @@
+name = "CarpetGamerules"
+filename = "carpetgamerules-mc1.20.1-v2.1.0.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/BZjbriEM/versions/XLEEI4Z4/carpetgamerules-mc1.20.1-v2.1.0.jar"
+hash-format = "sha512"
+hash = "f0843993047badc3072bf617f2d44e82182aa337e56ae84f775e66bde23345fb4f37a3c7eb44ae79cda99f45785547313774ec936dad3efe9d68f9c0a6a27109"
+
+[update]
+[update.modrinth]
+mod-id = "BZjbriEM"
+version = "XLEEI4Z4"
