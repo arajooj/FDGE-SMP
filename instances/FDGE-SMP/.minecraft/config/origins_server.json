@@ -1986,6 +1986,10 @@
       "origins-plus-plus:snake/health": true,
       "origins-plus-plus:snake/intimidate": true,
       "origins-plus-plus:snake/lunge": true
+    },
+    "feintha:test/test": {
+      "enabled": true,
+      "origins:elytra": true
     }
   }
 }
