@@ -179,6 +179,9 @@ mode = "fancy"
 				tortoise = true
 				rattlesnake = true
 				lizard_tail = true
+				giraffe = true
+				lion = true
+				rhino = true
 
 			[light_sources.settings.entities.promenade]
 				duck = true
