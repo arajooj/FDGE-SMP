@@ -44,7 +44,9 @@
     "vazkii.patchouli.client.book.gui.GuiBookLanding": true,
     "bettercommandblockui.main.ui.screen.BetterCommandBlockScreen": true,
     "appeng.client.gui.implementations.VibrationChamberScreen": true,
-    "com.tom.cpm.client.GuiImpl": true
+    "com.tom.cpm.client.GuiImpl": true,
+    "org.anti_ad.mc.ipnext.gui.GUIDEEditorScreen": true,
+    "observable.client.ProfileScreen": true
   },
   "hideBackground": {
     "com.supermartijn642.core.gui.WidgetScreen": true,

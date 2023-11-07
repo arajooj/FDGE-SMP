@@ -184,6 +184,7 @@ mode = "fancy"
 				rhino = true
 				zebra = true
 				vulture = true
+				elephant = true
 
 			[light_sources.settings.entities.promenade]
 				duck = true

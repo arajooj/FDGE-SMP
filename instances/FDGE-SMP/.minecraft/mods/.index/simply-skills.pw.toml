@@ -1,0 +1,14 @@
+name = "Simply Skills"
+filename = "simplyskills-0.24.0+1.20.1.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/lyvwxqAy/versions/oyyb7bmU/simplyskills-0.24.0%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "e823abb9c93cf43f66a37886d3154f8b8448dd34982486f399125c37c7ff02588e32fe58993d0585aa9736b996153e6f96eb4f3d221ec486b59f196ec3ab1164"
+
+[update]
+[update.modrinth]
+mod-id = "lyvwxqAy"
+version = "oyyb7bmU"
