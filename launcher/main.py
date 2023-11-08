@@ -17,7 +17,7 @@ import tempfile
 
 # Suponha que a versão atual do script seja um número de versão
 # E que existe um endpoint onde você pode obter a última versão
-VERSAO_ATUAL = "0.1.0"
+VERSAO_ATUAL = "0.1.1"
 GAME_VERSION = "1.20.1"
 URL_BASE = "https://smp.fdge.com.br"
 URL_VERIFICACAO = URL_BASE + "/launcher/latest.txt"
@@ -90,14 +90,18 @@ def verificar_instalar():
 
 def verificar_atualizar():
     try:
+        # Obtenha a lista de tags do repositório
         resposta = requests.get(
-            "https://github.com/arajooj/FDGE-SMP-ModPack/releases/latest")
-        ultima_versao_repo = resposta.url.split("/")[-1]
+            "https://api.github.com/repos/arajooj/FDGE-SMP-ModPack/tags")
+        resposta.raise_for_status()  # Garante que a requisição foi bem-sucedida
+        tags = resposta.json()
+        ultima_tag = tags[0]['name']
 
-        if parse_version(ultima_versao_repo) > parse_version(VERSAO_ATUAL):
+        # Verifica se a versão da última tag é maior que a versão atual
+        if parse_version(ultima_tag) > parse_version(VERSAO_ATUAL):
             with open(PATH_BASE + "/version.txt", "r") as arquivo:
                 versao_instalada = arquivo.read().strip()
-            if parse_version(ultima_versao_repo) > parse_version(versao_instalada):
+            if parse_version(ultima_tag) > parse_version(versao_instalada):
                 return True
     except requests.RequestException as e:
         print(f"Erro ao verificar atualização: {e}")
@@ -152,7 +156,7 @@ def verificar_atualizacao():
             subprocess.Popen([novo_exe_path])
             sys.exit()  # Encerrar o aplicativo atual corretamente
         elif parse_version(ultima_versao) < parse_version(VERSAO_ATUAL):
-            updateLabel("O aplicativo está atualizado. (Ate de mais 😒)")
+            updateLabel("O aplicativo está atualizado. (Ate de mais 😒)", 1)
         else:
             updateLabel("O aplicativo está atualizado.")
     except requests.RequestException as e:
@@ -177,9 +181,74 @@ def log(text, type="INFO"):
 
 
 def atualizar():
-    # Implemente a lógica para a ação "Atualizar" aqui
-    print("clicou em atualizar")
-    pass
+    try:
+        # Obtenha a última tag do GitHub
+        resposta = requests.get(
+            "https://api.github.com/repos/arajooj/FDGE-SMP-ModPack/tags")
+        resposta.raise_for_status()  # Garante que a requisição foi bem-sucedida
+        tags = resposta.json()
+        ultima_tag = tags[0]['name']
+        url_download_tag = tags[0]['zipball_url']
+
+        updateLabel(f"Baixando e atualizando para a versão {ultima_tag}...", 1)
+        nome_arquivo = f"{ultima_tag}.zip"
+        caminho_download = os.path.join(PATH_BASE, nome_arquivo)
+
+        # Faz o download do zip da tag
+        with requests.get(url_download_tag, stream=True) as r:
+            with open(caminho_download, 'wb') as f:
+                shutil.copyfileobj(r.raw, f)
+
+        # Define o caminho onde o arquivo zip será extraído temporariamente
+        caminho_extracao_temp = os.path.join(PATH_BASE, "temp_extraction")
+
+        # Cria o diretório temporário se ele não existir
+        if not os.path.exists(caminho_extracao_temp):
+            os.makedirs(caminho_extracao_temp)
+
+        # Extrair o arquivo zip
+        with zipfile.ZipFile(caminho_download, 'r') as zip_ref:
+            zip_ref.extractall(caminho_extracao_temp)
+
+        # Move os arquivos do diretório intermediário para o diretório .minecraft
+        # Supondo que haja apenas um diretório no nível superior
+        conteudo_temp = os.listdir(caminho_extracao_temp)
+        caminho_intermediario = os.path.join(
+            caminho_extracao_temp, conteudo_temp[0])
+
+        caminho_destino = os.path.join(PATH_BASE, ".minecraft")
+
+        # Move os arquivos para o destino correto, substituindo-os se já existirem
+        for item in os.listdir(caminho_intermediario):
+            s = os.path.join(caminho_intermediario, item)
+            d = os.path.join(caminho_destino, item)
+            if os.path.isdir(s):
+                shutil.move(s, d)
+            else:
+                shutil.copy2(s, d)
+                os.remove(s)
+
+        # Exclui o diretório temporário
+        shutil.rmtree(caminho_extracao_temp)
+
+        # Exclui o arquivo .zip após a extração
+        os.remove(caminho_download)
+
+        # Atualiza o arquivo version.txt com a nova versão
+        with open(os.path.join(PATH_BASE, "version.txt"), "w") as arquivo_versao:
+            arquivo_versao.write(ultima_tag)
+
+        updateLabel(f"Atualização para {ultima_tag} completa.", 3)
+
+    except Exception as e:
+        updateLabel(f"Erro durante a atualização: {e}", 3, "ERRO")
+
+    global acao_atual
+    if (verificar_atualizar()):
+        acao_atual = "Atualizar"
+    else:
+        acao_atual = "Jogar"
+    botao.config(text=acao_atual)
 
 
 def instalar():
@@ -223,7 +292,10 @@ def instalar():
         updateLabel(f"Arquivo 'version.txt' já existe.", 1)
 
     global acao_atual
-    acao_atual = "Jogar"
+    if (verificar_atualizar()):
+        acao_atual = "Atualizar"
+    else:
+        acao_atual = "Jogar"
     botao.config(text=acao_atual)
 
 
