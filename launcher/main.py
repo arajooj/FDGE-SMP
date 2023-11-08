@@ -17,7 +17,7 @@ import tempfile
 
 # Suponha que a versão atual do script seja um número de versão
 # E que existe um endpoint onde você pode obter a última versão
-VERSAO_ATUAL = "0.0.9"
+VERSAO_ATUAL = "0.1.0"
 GAME_VERSION = "1.20.1"
 URL_BASE = "https://smp.fdge.com.br"
 URL_VERIFICACAO = URL_BASE + "/launcher/latest.txt"
@@ -119,42 +119,50 @@ def escolher_acao():
 def verificar_atualizacao():
     try:
         resposta = requests.get(URL_VERIFICACAO)
+        updateLabel(f"Verificando atualizações...", 1)
+
         ultima_versao = resposta.text.strip()
+        updateLabel(f"Ultima versao: {ultima_versao}", 1)
 
         # Compara as versões utilizando a função parse_version
         if parse_version(ultima_versao) > parse_version(VERSAO_ATUAL):
+            updateLabel(f"Nova versão disponível: {ultima_versao}", 1)
             resposta_exe = requests.get(
                 f"{URL_ATUALIZACAO}/fdge-smp-launcher_v{ultima_versao}.exe"
             )
-            novo_exe_path = "FDGE-SMP Launcher.exe"
+            novo_exe_path = "FDGE-SMP_Launcher.exe"
+            updateLabel(f"Baixando nova versão...", 1)
 
             # Se um executável antigo existir, removê-lo
             if os.path.exists(novo_exe_path):
+                updateLabel(f"Removendo versão antiga...", 1)
                 os.remove(novo_exe_path)
 
             # Salva o novo executável
             with open(novo_exe_path, "wb") as arquivo:
+                updateLabel(f"Salvando nova versão...", 1)
                 arquivo.write(resposta_exe.content)
 
             # Renomear o executável atual para que possa ser deletado posteriormente se necessário
+            updateLabel(f"Renomeando executável antigo...", 1)
             os.rename(sys.executable, "aplicativo_antigo.exe")
 
             # Reiniciar o aplicativo
+            updateLabel(f"Reiniciando aplicativo...", 1)
             subprocess.Popen([novo_exe_path])
             sys.exit()  # Encerrar o aplicativo atual corretamente
         elif parse_version(ultima_versao) < parse_version(VERSAO_ATUAL):
-            label_status.config(
-                text="O aplicativo está atualizado. (Ate de mais 😒)")
+            updateLabel("O aplicativo está atualizado. (Ate de mais 😒)")
         else:
-            label_status.config(text="O aplicativo está atualizado.")
+            updateLabel("O aplicativo está atualizado.")
     except requests.RequestException as e:
-        label_status.config(text=f"Erro ao verificar atualizações: {e}")
+        updateLabel(f"Erro ao verificar atualizações: {e}", 3, "ERRO")
 
 
-def updateLabel(text, delay):
+def updateLabel(text, delay, type="INFO"):
     def set_label_text():
         label_status.config(text=text)
-        log(text, "INFO")
+        log(text, type)
 
     # Agendar a mudança de status após 'delay' milissegundos
     app.after(delay * 1000, set_label_text)
