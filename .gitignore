@@ -27,6 +27,7 @@ instances/FDGE-SMP-LITE/
 instances/FDGE-SMP_0.1.6
 
 # instance
+instances/*
 instances/FDGE-SMP/patches
 instances/instgroups.json
 instances/FDGE-SMP/.minecraft/.fabric
