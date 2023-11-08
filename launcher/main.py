@@ -17,7 +17,7 @@ import tempfile
 
 # Suponha que a versão atual do script seja um número de versão
 # E que existe um endpoint onde você pode obter a última versão
-VERSAO_ATUAL = "0.0.8"
+VERSAO_ATUAL = "0.0.9"
 GAME_VERSION = "1.20.1"
 URL_BASE = "https://smp.fdge.com.br"
 URL_VERIFICACAO = URL_BASE + "/launcher/latest.txt"
@@ -33,15 +33,15 @@ acao_atual = "Carregando..."
 
 def download_and_extract_java():
 
+    if os.path.exists(PATH_JAVA):
+        return
+
     if not os.path.exists(PATH_JAVA):
         updateLabel(f"Criando pasta '{PATH_JAVA}'...", 1)
         os.makedirs(PATH_JAVA)
         updateLabel(f"Pasta '{PATH_JAVA}' criada com sucesso.", 1)
     else:
         updateLabel(f"A pasta '{PATH_JAVA}' já existe.", 1)
-
-    if os.path.exists(PATH_JAVA):
-        return
 
     # Corrigindo o caminho para obter o diretório temporário
     java_zip_path = os.path.join(tempfile.gettempdir(), "java.zip")
