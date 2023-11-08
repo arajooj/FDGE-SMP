@@ -3,10 +3,11 @@ import requests
 import os
 import sys
 import subprocess
+from pkg_resources import parse_version
 
 # Suponha que a versão atual do script seja um número de versão
 # E que existe um endpoint onde você pode obter a última versão
-VERSAO_ATUAL = "0.0.5"
+VERSAO_ATUAL = "0.0.6"
 URL_BASE = "https://smp.fdge.com.br"
 URL_VERIFICACAO = URL_BASE + "/launcher/latest.txt"
 URL_ATUALIZACAO = URL_BASE + "/launcher/dist"
@@ -17,7 +18,8 @@ def verificar_atualizacao():
         resposta = requests.get(URL_VERIFICACAO)
         ultima_versao = resposta.text.strip()
 
-        if ultima_versao != VERSAO_ATUAL:
+        # Compara as versões utilizando a função parse_version
+        if parse_version(ultima_versao) > parse_version(VERSAO_ATUAL):
             resposta_exe = requests.get(
                 f"{URL_ATUALIZACAO}/fdge-smp-launcher_v{ultima_versao}.exe"
             )
@@ -32,7 +34,9 @@ def verificar_atualizacao():
 
             # Reiniciar o aplicativo
             subprocess.Popen([sys.executable])
-            sys.exit()  # Certifique-se de encerrar o aplicativo atual corretamente
+            sys.exit()  # Encerrar o aplicativo atual corretamente
+        elif parse_version(ultima_versao) < parse_version(VERSAO_ATUAL):
+            print("A versão atual é mais recente do que a versão no servidor.")
         else:
             label_status.config(text="O aplicativo está atualizado.")
     except requests.RequestException as e:
@@ -42,7 +46,7 @@ def verificar_atualizacao():
 # Inicia a interface gráfica do usuário se este script for o ponto de entrada principal
 if __name__ == "__main__":
     app = tk.Tk()
-    app.title("Verificador de Atualização")
+    app.title("FDGE-SMP Launcher - v"+VERSAO_ATUAL)
 
     # Centralizar a janela
     window_width = app.winfo_reqwidth()
@@ -52,7 +56,7 @@ if __name__ == "__main__":
     app.geometry("+{}+{}".format(position_right, position_down))
 
     # Define um tamanho fixo para a janela
-    app.geometry('300x200')
+    app.geometry('350x200')
     app.resizable(False, False)
 
     label_status = tk.Label(app, text="Verificando por atualizações...")

@@ -7,6 +7,7 @@ from main import VERSAO_ATUAL
 
 NOME_BASE_ARQUIVO = f"fdge-smp-launcher_v{VERSAO_ATUAL}.exe"
 CAMINHO_DESTINO = "Z:\\Docker\\nginx\\fdge_smp\\public\\launcher\\dist"
+CAMINHO_ARQUIVO_VERSAO = "Z:\\Docker\\nginx\\fdge_smp\\public\\launcher\\latest.txt"
 # Substitua pelo nome do seu script principal, se for diferente
 SCRIPT_PYTHON = "main.py"
 
@@ -30,6 +31,11 @@ def build_executable():
             CAMINHO_DESTINO, NOME_BASE_ARQUIVO))
         print(
             f"Executável movido para: {os.path.join(CAMINHO_DESTINO, NOME_BASE_ARQUIVO)}")
+
+        # Atualiza o arquivo de versão
+        with open(CAMINHO_ARQUIVO_VERSAO, 'w') as f:
+            f.write(VERSAO_ATUAL)
+        print(f"Arquivo de versão atualizado para: {VERSAO_ATUAL}")
     else:
         print("Não foi possível encontrar o executável após o build. Verifique se o PyInstaller funcionou corretamente.")
 
