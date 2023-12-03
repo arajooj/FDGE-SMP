@@ -17,7 +17,7 @@ import tempfile
 
 # Suponha que a versão atual do script seja um número de versão
 # E que existe um endpoint onde você pode obter a última versão
-VERSAO_ATUAL = "0.1.1"
+VERSAO_ATUAL = "0.1.2"
 GAME_VERSION = "1.20.1"
 URL_BASE = "https://smp.fdge.com.br"
 URL_VERIFICACAO = URL_BASE + "/launcher/latest.txt"
@@ -304,11 +304,10 @@ def jogar():
     # Exemplo de execução de comando para jogar usando o portablemc
     try:
         # Substitua 'SEU_COMANDO_DE_JOGAR' pelo comando real que você deseja executar
-        comando_jogar = 'SEU_COMANDO_DE_JOGAR'
-        subprocess.Popen(comando_jogar, shell=True).wait()
-        label_status.config(text="Iniciando o jogo...")
+        updateLabel(f"Iniciando o jogo...", 1)
+
     except Exception as e:
-        label_status.config(text=f"Erro ao iniciar o jogo: {e}")
+        updateLabel(f"Erro ao iniciar o jogo: {e}", 3, "ERRO")
 
 
 def executar_acao():
